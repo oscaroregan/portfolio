@@ -9,9 +9,9 @@ A third-year Mechanical Engineering student at the University of Victoria with a
 
 ## 🔧 Projects
 
-- **Automated Conveyor Sorter**: Stepper/DC motor control with embedded C and sensors.
-- **15MW Gearbox**: Designed for 15 MW power transmission at 450 RPM output.
-
+- [Automated Conveyor Sorter](./conveyor-sorter/)
+- [Gearbox Design Project](./gearbox-design/)
+  
 ## 📄 Resume
 [Download my resume](./Resume2025.pdf)
 
