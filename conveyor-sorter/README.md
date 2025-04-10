@@ -5,10 +5,13 @@ This project was part of the mechatronics class, it utilized an ATmega2560 and L
 ## 🚀 Skills Applied
 - Embedded C programming
 - Stepper motor control
-- S-curve acceleration modeling
+- S-curve motion profile modeling
 - System troubleshooting
 - In depth MCU understanding
 
 ![Sorter System](../images/sorter.jpg)
 
-![S-Curve Acceleration Profile](stepper_acceleration.m)
+![S-Curve Motion Code](stepper_acceleration.m)
+
+![Optimized Velocity Profile](stepper_acceleration.m)
+
