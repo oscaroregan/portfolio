@@ -112,41 +112,4 @@ for profile = 1:number_of_profiles
     ylabel('Velocity [steps/s]');
     grid on;
     
-    index = 1; % Initialize index
-    previous_index = 1; % Start from the first index
-    final_delay = 0;
-    delay_index = 1;
-
-    for position = 1:s(profile)-5 %half stepped
-        % Find the index of the closest value in p to 'position'
-        [~, index] = min(abs(p - position));
-        
-        if(position > 5)
-        % Compute delay as the difference between current and previous indices
-        delay{profile}(delay_index) = index - previous_index;
-        final_delay = final_delay + (index - previous_index);
-        delay_index = delay_index + 1;
-        end
-        % Update previous index for the next iteration
-        previous_index = index;
-    end 
 end
-
-% Find the maximum length among all delay profiles
-max_length = max(cellfun(@length, delay));
-
-% Open a new file to write the C array
-fileID = fopen('delay_profile.h', 'w');
-
-% Write the C array to the file
-fprintf(fileID, 'const float delay_profile[%d][%d] = {\n', number_of_profiles, max_length);
-for profile = 1:number_of_profiles
-    % Pad the array with zeros if it's shorter than max_length
-    padded_delay = [delay{profile}, zeros(1, max_length - length(delay{profile}))];
-
-    fprintf(fileID, '    {');
-    fprintf(fileID, '%f, ', padded_delay(1:end-1));
-    fprintf(fileID, '%f},\n', padded_delay(end));
-end
-fprintf(fileID, '};\n');
-fclose(fileID);
