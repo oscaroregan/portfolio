@@ -11,7 +11,7 @@ This project was part of the mechatronics class, it utilized an ATmega2560 and L
 
 ## Sorting System in Action
 #### disclaimer - video below is not full speed of sorter. At full speed it sorted 48 pieces in 26 seconds.
-![Click to view download video](sort.mp4)
+![Click to download video](sort.mp4)
 
 <!--## S-Curve Motion Code
 [Click to view S-Curve Motion Code](stepper_acceleration.m)-->
