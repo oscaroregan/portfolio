@@ -10,8 +10,7 @@ A third-year Mechanical Engineering student at the University of Victoria with a
 ## 🔧 Projects
 
 - **Automated Conveyor Sorter**: Stepper/DC motor control with embedded C and sensors.
-- **Gearbox Design**: Designed for 15 MW power transmission at 450 RPM output.
-- **Venturi Flow Lab**: Applied Bernoulli principles to calculate fluid energy losses.
+- **15MW Gearbox**: Designed for 15 MW power transmission at 450 RPM output.
 
 ### 📄 Resume
 [Download my resume](./resume2025.pdf)
