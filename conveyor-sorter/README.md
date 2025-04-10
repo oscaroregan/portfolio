@@ -13,5 +13,6 @@ This project was part of the mechatronics class, it utilized an ATmega2560 and L
 
 ![S-Curve Motion Code](stepper_acceleration.m)
 
-![Optimized Velocity Profile](..velocity_profiles.png)
+### Optimized Velocity Profile
+[Click to view velocity profile](velocity_profiles.png)
 
