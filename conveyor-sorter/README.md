@@ -10,7 +10,7 @@ This project was part of the mechatronics class, it utilized an ATmega2560 and L
 - In depth MCU understanding
 
 ## Sorting System in Action
-
+#### video below is not full speed of sorter 
 <video width="560" height="315" controls autoplay>
   <source src="sort.mp4" type="video/mp4">
   Your browser does not support the video tag.
