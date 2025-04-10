@@ -1,7 +1,7 @@
 vmax = [200,200];%max SPS allowed by stepper and mcu
 amax = [2500,2500]; %max SPSPS allowed by stepper and mcu
 J = [3000,3000]; %jerk
-s = [60,110]; %steps
+s = [50,100]; %steps
 
 number_of_profiles = 2;
 
