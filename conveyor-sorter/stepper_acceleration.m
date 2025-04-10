@@ -1,4 +1,4 @@
-vmax = [200,200];%max SPS allowed by stepper and mcu
+vmax = [200,250];%max SPS allowed by stepper and mcu
 amax = [2500,2500]; %max SPSPS allowed by stepper and mcu
 J = [5000,5000]; %jerk
 s = [50,100]; %steps
