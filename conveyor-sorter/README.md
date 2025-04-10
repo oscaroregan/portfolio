@@ -1,4 +1,4 @@
-#Conveyor Sorter
+# Conveyor Sorter
 
 This project was part of the mechatronics class, it utilized an ATmega2560 and L298N motor driver to sort objects by material using optical and reflective sensors.
 
@@ -12,8 +12,8 @@ This project was part of the mechatronics class, it utilized an ATmega2560 and L
 ## Sorting System in Action
 [Click to view Sorter System](../images/sorter.jpg)
 
-## S-Curve Motion Code
-[Click to view S-Curve Motion Code](stepper_acceleration.m)
+<!--## S-Curve Motion Code
+[Click to view S-Curve Motion Code](stepper_acceleration.m)-->
 
 ## Optimized Velocity Profile
 ![Click to view velocity profile](velocity_profiles.png)
