@@ -10,4 +10,4 @@ This project was part of the mechatronics class, it utilized an ATmega2560 and L
 - In depth MCU understanding
 
 ![Sorter System](../images/sorter.jpg)
-![S-Curve Acceleration Profile](..stepper_acceleration.m)
+![S-Curve Acceleration Profile](stepper_acceleration.m)
