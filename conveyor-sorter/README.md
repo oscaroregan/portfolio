@@ -1,6 +1,6 @@
 # Automated Conveyor Sorter
 
-This project was part of the mechatronics class, it utilized an ATmega2560 and L298N motor driver to sort objects by material using optical and refelctive sensors.
+This project was part of the mechatronics class, it utilized an ATmega2560 and L298N motor driver to sort objects by material using optical and reflective sensors.
 
 ## 🚀 Skills Applied
 - Embedded C programming
@@ -13,6 +13,6 @@ This project was part of the mechatronics class, it utilized an ATmega2560 and L
 
 ![S-Curve Motion Code](stepper_acceleration.m)
 
-### Optimized Velocity Profile
+## Optimized Velocity Profile
 [Click to view velocity profile](velocity_profiles.png)
 
