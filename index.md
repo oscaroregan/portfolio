@@ -12,10 +12,8 @@ A third-year Mechanical Engineering student at the University of Victoria with a
 - **Automated Conveyor Sorter**: Stepper/DC motor control with embedded C and sensors.
 - **15MW Gearbox**: Designed for 15 MW power transmission at 450 RPM output.
 
-### 📄 Resume
-[Download my resume](./resume2025.pdf)
+## 📄 Resume
+[Download my resume](./Resume2025.pdf)
 
-### 📬 Contact
-- 📧 Email: your.email@example.com  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/your-profile)  
-- 💻 [GitHub](https://github.com/your-username)
+## 📬 Contact
+- 🔗 [LinkedIn](www.linkedin.com/in/oscar-oregan)  
