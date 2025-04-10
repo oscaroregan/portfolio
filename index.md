@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Oscar O'Regan
+title: Oscar O'Regan Portfolio 
 ---
 
 # Hi, I'm Oscar 👋
 
-I'm a third-year Mechanical Engineering student at the University of Victoria with a passion for **energy systems**, **mechatronics**, and **innovation**.  
+A third-year Mechanical Engineering student at the University of Victoria with a passion to learn and advance my skills
 
-### 🔧 Projects
+## 🔧 Projects
+
 - **Automated Conveyor Sorter**: Stepper/DC motor control with embedded C and sensors.
 - **Gearbox Design**: Designed for 15 MW power transmission at 450 RPM output.
 - **Venturi Flow Lab**: Applied Bernoulli principles to calculate fluid energy losses.
