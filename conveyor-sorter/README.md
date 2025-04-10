@@ -10,7 +10,11 @@ This project was part of the mechatronics class, it utilized an ATmega2560 and L
 - In depth MCU understanding
 
 ## Sorting System in Action
-[Click to view Sorter System](IMG_1470.mov)
+
+<video width="560" height="315" controls autoplay>
+  <source src="IMG_1470.mov" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
 
 <!--## S-Curve Motion Code
 [Click to view S-Curve Motion Code](stepper_acceleration.m)-->
