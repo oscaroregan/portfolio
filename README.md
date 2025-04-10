@@ -14,4 +14,4 @@ Feel free to explore the folders above for details, photos, design files, and mo
 ## Resume
 
 
-[Click here to view my resume](./resume2025.pdf)
+[Click here to view my resume](./Resume2025.pdf)
