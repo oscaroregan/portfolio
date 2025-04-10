@@ -7,6 +7,7 @@ This project was part of the mechatronics class, it utilized an ATmega2560 and L
 - System troubleshooting
 - In depth MCU understanding
 
+##Sorting System in Action
 ![Sorter System](../images/sorter.jpg)
 
 ## S-Curve Motion Code
