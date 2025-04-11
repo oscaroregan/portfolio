@@ -11,10 +11,7 @@ This project was part of the mechatronics class, it utilized an ATmega2560 and L
 
 ## Sorting System in Action
 
-<video width="560" height="315" controls>
-  <source src="https://user-images.githubusercontent.com/yourusername/yourrepo/main/conveyor-sorter/IMG_0238.mov" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch Demo](https://img.youtube.com/vi/uiw-7N4O6TU/maxresdefault.jpg)](https://youtube.com/watch?v=uiw-7N4O6TU)
 
 <!--## S-Curve Motion Code
 [Click to view S-Curve Motion Code](stepper_acceleration.m)-->
