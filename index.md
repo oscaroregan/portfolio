@@ -13,7 +13,7 @@ A third-year Mechanical Engineering student at the University of Victoria with a
 <!--- [Gearbox Design Project](./gearbox-design/)-->
   
 ## Resume
-[Download my resume](./Resume2025.pdf)
+[Click to view my resume](./Resume2025.pdf)
 
 ## Contact
 - [LinkedIn](https://www.linkedin.com/in/oscar-oregan)  
