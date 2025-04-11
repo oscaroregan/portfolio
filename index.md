@@ -16,4 +16,4 @@ A third-year Mechanical Engineering student at the University of Victoria with a
 [Download my resume](./Resume2025.pdf)
 
 ## Contact
-- 🔗 [LinkedIn](www.linkedin.com/in/oscar-oregan)  
+- [LinkedIn](www.linkedin.com/in/oscar-oregan)  
