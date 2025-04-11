@@ -12,7 +12,7 @@ This project was part of the mechatronics class, it utilized an ATmega2560 and L
 ## Sorting System in Action
 
 <video width="560" height="315" controls autoplay>
-  <source src="IMG_0238.mov" type="video/quicktime">
+  <source src="https://github.com/yourusername/yourrepo/raw/main/conveyor-sorter/IMG_0238.mov" type="video/quicktime">
   Your browser does not support the video tag.
 </video>
 
