@@ -2,7 +2,7 @@
 
 This project was part of the mechatronics class, it utilized an ATmega2560 and L298N motor driver to sort objects by material using optical and reflective sensors.
 
-## 🚀 Skills Applied
+## Skills Applied
 - Embedded C programming
 - Stepper motor control
 - S-curve motion profile modeling
@@ -18,6 +18,7 @@ This project was part of the mechatronics class, it utilized an ATmega2560 and L
   frameborder="0" 
   allowfullscreen>
 </iframe>
+
 
 <!--## S-Curve Motion Code
 [Click to view S-Curve Motion Code](stepper_acceleration.m)-->
