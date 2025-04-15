@@ -13,6 +13,7 @@ This project was part of my mechanisms class, where were I was tasked with creat
 - Brainstormed several potential sports-themed automaton ideas:
 ![boxer](./boxing_draft.jpg) ![hockey](./hockey_draft.jpg)
 - Evaluated designs using a weighted objective chart:
+![weighted objectives](./weighted_objectives.png)
 - The boxing animation scored highest (9.3/10) and was chosen.
 - The build was modeled at a 1:10 scale.
 
