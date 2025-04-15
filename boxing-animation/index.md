@@ -25,8 +25,8 @@ This project was part of my mechanisms class, in which we were tasked to create 
    - Grpaial mechanism sythesis using path genration with prescribed timing (mechanism will move twice as fast during leg extension portion of movement):
    - Resultant fourbar mefchnism motion:
 5. Punch
-   -Motion replicated uisng slider-crank mechanism
-   -Dteremined dyad from max shoudlere and min shoudler angle
+   - Motion replicated uisng slider-crank mechanism
+   - Dteremined dyad from max shoudlere and min shoudler angle
    - Resultant slider crank motion:
 7. Bell
    -Ringing of bell replicated using cam and follower system
