@@ -10,8 +10,8 @@ This project was part of my mechanisms class, where were I was tasked with creat
 ## Project Overview
 
 ### Design Selection
-- Brainstormed several potential sports-themed automaton ideas.
-- Evaluated designs using a weighted objective chart (criteria: feasibility, visual appeal, motion complexity).
+- Brainstormed several potential sports-themed automaton ideas:
+- Evaluated designs using a weighted objective chart:
 - The boxing animation scored highest (9.3/10) and was chosen.
 - The build was modeled at a 1:10 scale.
 
