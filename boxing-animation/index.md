@@ -62,10 +62,5 @@ Each movement in the automaton was achieved with a unique mechanism:
 <iframe width="315" height="560" src="https://www.youtube.com/embed/uiw-7N4O6TU?autoplay=0&playsinline=1" frameborder="0" allowfullscreen></iframe>
 
 ---
-
-## Summary
-
-This project was a hands-on application of mechanism synthesis, turning theoretical design principles into a working physical system. It taught us to think critically about motion, timing, and the elegance of mechanical systems.
-
     
  
