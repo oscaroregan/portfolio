@@ -24,12 +24,13 @@ Each movement in the automaton was achieved with a unique mechanism:
 1. **Dodge**
    - Modeled with a four-bar linkage (3 precision points + 1 dyad).
    - Synthesis via graphical and analytical motion generation methods. See graphical synthesis below:
+   ![dodge synthesis](./dodge_synthesis.png)
    - Motion:
 
 2. **Kick**
    - Designed with a four-bar linkage using path generation with prescribed timing.
    - Kick accelerates during extension phase (timing emphasized in synthesis).
-   - Graphical synthesis:
+   - Graphical synthesis: ![kick synthesis](./kick_synthesis.png)
    - Motion:
 
 3. **Punch**
@@ -52,6 +53,7 @@ Each movement in the automaton was achieved with a unique mechanism:
   - Punch: 2:1 (punches twice per full cycle).
   - Clock: 6:1 (ticks every 1/6 rotation).
 - Gear layout designed to maintain timing and realism.
+ ![gears](./Under1.png)  
 
 ### Ring and Boxer Modeling
 - Boxing ring modeled after Olympic standards (scaled to 1:10).
