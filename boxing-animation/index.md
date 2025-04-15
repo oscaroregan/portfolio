@@ -1,53 +1,71 @@
 # Boxing Animation
 
-This project was part of my mechanisms class, in which we were tasked to create an automated mechanisnm of a sport powered by a single hand-crank, utilizng multiple 4 bar linakegs and other mechanisms such as Geneva wheels, cam systems, and slider-cranks. 
+This project was part of my mechanisms class, where were I was tasked with creating an automated sport simulation powered by a single hand crank, utilizing mechanisms such as four-bar linkages, Geneva wheels, cams, and slider-cranks.
 
 ## Skills Applied
 - Mechanism synthesis
-- Design
-- CAD modelling 
+- Motion design
+- CAD modeling (SolidWorks)
 
-## The Process
+## Project Overview
 
-###  Design Selection
-- Potential Designs:
-- Weighted Objective Chart:
-- With a score of 9.3/10 the boxing antmation was selelected
-- a scale of 1/10th actual size was decided
+### Design Selection
+- Brainstormed several potential sports-themed automaton ideas.
+- Evaluated designs using a weighted objective chart (criteria: feasibility, visual appeal, motion complexity).
+- The boxing animation scored highest (9.3/10) and was chosen.
+- The build was modeled at a 1:10 scale.
 
 ### Mechanism Breakdown
-- The autamation conists of 5 individual mechanisms resulting in the following motions:
-1. Dodge
-   - Motion replicated using four-bar linkage with 3 preciosiisn points and an additonal dyad
-   - Graphical mechanism synthesis using motion generation:
-   - Resultant four-bar mechanism motion:
-3. Kick
-   - Motion replicated using four-bar linkage with three percison points and an addtioanl dyad
-   - Grpaial mechanism sythesis using path genration with prescribed timing (mechanism will move twice as fast during leg extension portion of movement):
-   - Resultant fourbar mefchnism motion:
-5. Punch
-   - Motion replicated uisng slider-crank mechanism
-   - Dteremined dyad from max shoudlere and min shoudler angle
-   - Resultant slider crank motion:
-7. Bell
-   - Ringing of bell replicated using cam and follower system
-   - Cam was determined via
-   - Resultant motion of riging of bell:
-9. Clock
-    - clock was replcaited using a genve a wheel, with each roation reuslting in the chanign of the number
-    - mechanism counts down form 5 seconds
-    - Resultant clock:
 
-### Mechanism Sychronatization
-- Mehcanisms were synchoronzied using gears, with the dodge, kick andn bell all compelting there mmtion in 1 rotation (1:1 gear rations), the punch compaletes tow raotions in one cycle and thus has 2:1 gear roation and th clock completes 6 cycles iiin opne rotation so  a 6:1 gear ratios
-- Gearing abnd synchrozntion of system:
+Each movement in the automaton was achieved with a unique mechanism:
 
-### Boxing Ring and Boxer Modelling
-- Boxing ring was modelled with inspriration from olympic standard ring, using a 1/10th sacle
-- Boxers were mdoelled stratgically with degrees of freedom allowing for correct movement
+1. **Dodge**
+   - Modeled with a four-bar linkage (3 precision points + 1 dyad).
+   - Synthesis via graphical and analytical motion generation methods. See graphical synthesis below:
+   - Motion:
 
-### Putting it all Together 
-- Resultant animation:
-  
+2. **Kick**
+   - Designed with a four-bar linkage using path generation with prescribed timing.
+   - Kick accelerates during extension phase (timing emphasized in synthesis).
+   - Graphical synthesis:
+   - Motion:
+
+3. **Punch**
+   - Replicated with a slider-crank mechanism.
+   - Dyad calculated from max/min shoulder angles.
+   - Motion:
+
+4. **Bell**
+   - Simulated using a cam and follower system.
+   - Cam profile shaped to ring bell once per full cycle.
+
+5. **Clock**
+   - Created with a Geneva wheel.
+   - Each full crank rotation advances the clock by 1 second.
+   - Mechanism counts down from 5 to 0.
+
+### Synchronization and Gearing
+- Mechanisms are synchronized via gear trains:
+  - Dodge, Kick, and Bell: 1:1 gear ratio.
+  - Punch: 2:1 (punches twice per full cycle).
+  - Clock: 6:1 (ticks every 1/6 rotation).
+- Gear layout designed to maintain timing and realism.
+
+### Ring and Boxer Modeling
+- Boxing ring modeled after Olympic standards (scaled to 1:10).
+- Boxers were CAD-modeled with joints and degrees of freedom that match each motion.
+
+### Final Result
+
+[Click here to watch the animation](https://www.youtube.com/embed/uiw-7N4O6TU)
+
+<iframe width="315" height="560" src="https://www.youtube.com/embed/uiw-7N4O6TU?autoplay=0&playsinline=1" frameborder="0" allowfullscreen></iframe>
+
+---
+
+## Summary
+
+This project was a hands-on application of mechanism synthesis, turning theoretical design principles into a working physical system. It taught us to think critically about motion, timing, and the elegance of mechanical systems.
+
     
  
