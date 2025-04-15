@@ -67,9 +67,7 @@ Each movement in the automaton was achieved with a unique mechanism:
 
 ### Final Result
 
-[Click here to watch the animation](https://www.youtube.com/embed/uiw-7N4O6TU)
-
-<iframe width="315" height="560" src="https://www.youtube.com/embed/uiw-7N4O6TU?autoplay=0&playsinline=1" frameborder="0" allowfullscreen></iframe>
+<iframe width="315" height="560" src="https://www.youtube.com/embed/N5A6NhKn2TM?autoplay=0&playsinline=1" frameborder="0" allowfullscreen></iframe>
 
 ---
     
