@@ -53,7 +53,7 @@ Each movement in the automaton was achieved with a unique mechanism:
   - Punch: 2:1 (punches twice per full cycle).
   - Clock: 6:1 (ticks every 1/6 rotation).
 - Gear layout designed to maintain timing and realism.
- ![gears](./Under1.png)  
+ ![gears](./Under1.PNG)  
 
 ### Ring and Boxer Modeling
 - Boxing ring modeled after Olympic standards (scaled to 1:10).
