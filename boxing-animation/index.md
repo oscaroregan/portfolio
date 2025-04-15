@@ -51,7 +51,7 @@ Each movement in the automaton was achieved with a unique mechanism:
    ![clock](./clock_top.png)
    - Each full crank rotation advances the clock by 1 second.
    - Mechanism counts down from 5 to 0.
-   ![clock gif](./clock_gif.gif)
+   ![clock gif](./clock1_gif.gif)
 
 ### Synchronization and Gearing
 - Mechanisms are synchronized via gear trains:
