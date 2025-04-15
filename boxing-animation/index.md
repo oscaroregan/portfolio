@@ -64,6 +64,7 @@ Each movement in the automaton was achieved with a unique mechanism:
 ### Ring and Boxer Modeling
 - Boxing ring modeled after Olympic standards (scaled to 1:10).
 - Boxers were CAD-modeled with joints and degrees of freedom that match each motion.
+  
 ![boxer gif](./boxers_gif.gif)
 
 
