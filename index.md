@@ -11,7 +11,7 @@ A third-year Mechanical Engineering student at the University of Victoria with a
 
 - [Automated Conveyor Sorter](./conveyor-sorter/)
 <!--- [Gearbox Design Project](./gearbox-design/)-->
-- [Boxing Animation](./boxing-animation/README.md)
+- [Boxing Animation](./boxing-animation/)
 
   
 ## Resume
