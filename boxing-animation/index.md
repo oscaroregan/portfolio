@@ -8,11 +8,12 @@ This project was part of my mechanisms class, in which we were tasked to create 
 - CAD modelling 
 
 ## The Process
+
 ###  Design Selection
-- This design was selc
 - Potential Designs:
 - Weighted Objective Chart:
-- Scale was decided to be 1/10th
+- With a score of 9.3/10 the boxing antmation was selelected
+- a scale of 1/10th actual size was decided
 
 ### Mechanism Breakdown
 - The autamation conists of 5 individual mechanisms resulting in the following motions:
