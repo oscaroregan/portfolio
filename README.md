@@ -2,15 +2,4 @@
 
 A third-year Mechanical Engineering student at the University of Victoria with a passion to learn and advance my skills
 
-## Projects
-
-- [Automated Conveyor Sorter](./conveyor-sorter/)
-<!--- [Gearbox Design Project](./gearbox-design/)-->
-- [Boxing Animation](./boxing-animation/)
-
-  
-## Resume
-[Click to view my resume](./Resume2025.pdf)
-
-## Contact
-- [LinkedIn](https://www.linkedin.com/in/oscar-oregan)  
+[click this link to check out my portfolio](https://oscaroregan.github.io/portfoli)
