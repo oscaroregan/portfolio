@@ -29,9 +29,9 @@ This project was part of my mechanisms class, in which we were tasked to create 
    - Dteremined dyad from max shoudlere and min shoudler angle
    - Resultant slider crank motion:
 7. Bell
-   -Ringing of bell replicated using cam and follower system
-   -Cam was determined via
-   -Resultant motion of riging of bell:
+   - Ringing of bell replicated using cam and follower system
+   - Cam was determined via
+   - Resultant motion of riging of bell:
 9. Clock
     - clock was replcaited using a genve a wheel, with each roation reuslting in the chanign of the number
     - mechanism counts down form 5 seconds
