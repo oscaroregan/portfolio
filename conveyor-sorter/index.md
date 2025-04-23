@@ -12,8 +12,8 @@ This project was part of the mechatronics class, it utilized an ATmega2560 and L
 ## Sorting System in Action
 
 <iframe 
-  width="315" 
-  height="560" 
+  width="560" 
+  height="315" 
   src="https://www.youtube.com/embed/hqMgv_qh0ds?autoplay=0&playsinline=1" 
   frameborder="0" 
   allowfullscreen>
