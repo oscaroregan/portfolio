@@ -14,11 +14,10 @@ This project was part of the mechatronics class, it utilized an ATmega2560 and L
 <iframe 
   width="315" 
   height="560" 
-  src="https://www.youtube.com/embed/uiw-7N4O6TU?autoplay=0&playsinline=1" 
+  src="https://www.youtube.com/embed/hqMgv_qh0ds?autoplay=0&playsinline=1" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
-
 
 <!--## S-Curve Motion Code
 [Click to view S-Curve Motion Code](stepper_acceleration.m)-->
