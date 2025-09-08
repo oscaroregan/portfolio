@@ -5,9 +5,7 @@ title: Oscar O'Regan Portfolio
 
 # Hi, I'm Oscar 
 
-A third-year Mechanical Engineering student at the University of Victoria with a passion to learn and advance my skills
-
-## Projects
+A fourth-year Mechanical Engineering student at the University of Victoria
 
 - [Automated Conveyor Sorter](./conveyor-sorter/)
 <!--- [Gearbox Design Project](./gearbox-design/)-->
