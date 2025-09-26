@@ -31,7 +31,7 @@ The Tow Boogie is still a **work in progress**, and future updates will focus on
 - Mechanical and electrical system integration  
 - Embedded systems design (Heltec WiFi LoRa 32 V3 MCU)  
 - Wireless control and communication (LoRa)  
-- Brushless motor control (Flipsky VESCs)  
+- Motor control (VESC Tool)  
 - Custom water-cooling system design  
 - Battery pack assembly (14s10P LG M50LT cells)  
 - 3D printing (PLA, PETG, ASA, and Nylon) and CAD modeling (Onshape and SolidWorks)  
