@@ -20,7 +20,7 @@ The Tow Boogie is still a **work in progress**, and future updates will focus on
   allowfullscreen>  
 </iframe>  
 
-> ⚡ *Note: This video shows initial testing — the system is not running at full power yet.*  
+> ⚡ *Note: This video shows initial testing — the system is not running at full power yet. The foil setup used Armstrong, HA 880 cm² front wing, and FV 200 cm² rear stabilizer.*  
 
 ---
 
