@@ -89,8 +89,7 @@ All electronics — including the **battery** and **VESCs** — are housed in a 
 
 The **motor pods** are attached using **¼-inch steel bolts**, ensuring rigidity under load. All external connectors were **sealed with silicone** or **compression molds**, and **cable glands** were used for the **water-cooling inlets and outlets** to maintain watertight integrity.  
 
-For towing, I used a **1x1¼-inch steel angle** that already has **holes along its length**, allowing the **tow point to be easily adjusted** by changing which holes are used.  
-This makes it possible to move the tow position **forward or backward** to fine-tune how the board handles under load.  
+For towing, I used a **1x1¼-inch steel angle** with **holes along its length**, This allowed for the **tow point** ot be adjusted **forward or backward** to fine-tune how the board handles under load.  
 
 This project started from **bare wire and raw materials** — every connection had to be **soldered, crimped, or spot-welded by hand**. With **little prior experience**, the build process became a valuable learning experience in **electrical assembly, mechanical integration, and waterproof design**. By the end, I gained strong practical skills and a deeper understanding of how to merge electronics and mechanics in a marine environment.  
 
