@@ -36,7 +36,8 @@ The **Tow Boogie** took a significant amount of **time, effort, and cost** to co
 - Mechanical and electrical fabrication  
 
 ### 📸 Project Overview  
-![Overview Image Placeholder](images/overview_placeholder.png)  
+![tow boogie top](https://github.com/user-attachments/assets/7ecc22ee-13d2-4a79-9d59-73e81913993f)
+![tow boogie side](https://github.com/user-attachments/assets/88d7df0c-b79c-4bf3-b7ae-60ba6e208572)
 
 ---
 
