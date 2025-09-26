@@ -14,6 +14,7 @@ My Tow Boogie combines mechanical, electrical, and control systems engineering i
   allowfullscreen>
 </iframe>
 
+> ⚡ *Note: This video shows initial testing — the system is not running at full power yet.*
 ---
 
 ## ⚙️ Skills Applied
@@ -43,7 +44,7 @@ To maintain stable operation up to **100 A continuous**, I designed a **custom a
 
 ## 🔋 Power System
 
-The craft is powered by a **14s10P lithium-ion battery pack** built with **LG M50LT cells**, chosen for efficiency and energy density.  
+The craft is powered by a **14s10P lithium-ion battery pack** built with **LG M50LT cells**, chosen for efficiency at low to medium discharge rates.  
 A **Battery Management System (BMS)** ensures safe operation through temperature, voltage, and cell balancing control.
 
 ### 📸 Battery Pack  
@@ -55,7 +56,7 @@ A **Battery Management System (BMS)** ensures safe operation through temperature
 
 I designed a **custom handheld controller** based on the **Heltec WiFi LoRa 32 (V3)** MCU for long-range, low-latency communication.  
 Throttle and steering are measured using **magnetic rotary encoders** for precise, drift-free control.  
-The steering mechanism uses a **helical torsion spring design**, inspired by Ludwig Bre, for smooth and centered feedback.
+The steering mechanism uses a **helical torsion spring design**, designed by **Ludwig Bre**, for smooth and centered feedback.
 
 ### 📸 Controller  
 ![Controller Image](images/controller_placeholder.png)
@@ -85,17 +86,3 @@ The propulsion system mounts to a **Catch Surf Stump** surfboard, offering buoya
 
 ---
 
-## 🌊 My Tow Boogie in Action
-
-Add photos, test videos, and CAD previews below!  
-
-<iframe 
-  width="720" 
-  height="405" 
-  src="https://www.youtube.com/embed/XXXXXXXXXXX?autoplay=0&playsinline=1" 
-  frameborder="0" 
-  allowfullscreen>
-</iframe>
-
-### 📸 On-Water Testing  
-![Tow Boogie in Action](images/in_action_placeholder.png)
