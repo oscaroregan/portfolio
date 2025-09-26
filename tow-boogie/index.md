@@ -27,7 +27,7 @@ The Tow Boogie is still a work in progress, and future updates will focus on ref
 ## ⚙️ Skills Applied  
 
 - Mechanical and electrical system integration  
-- Embedded systems design (Heltec WiFi LoRa V3 MCU)  
+- Embedded systems design (Heltec WiFi LoRa V3, Audrino IDE)  
 - Wireless control and communication (LoRa)  
 - Motor control (VESC Tool)  
 - Custom water-cooling system design  
@@ -68,7 +68,7 @@ Charging is handled through the BMS with a 5 A charger connected via an XT30 por
 
 ## 🎮 Controller System  
 
-The custom handheld controller is built around the Heltec WiFi LoRa 32 (V3) MCU, chosen for its long-range, low-latency communication, built-in OLED display, LiPo charging system, and LoRa transceiver — making it the ideal all-in-one platform for this project.  
+The custom handheld controller is built around the Heltec WiFi LoRa (V3) MCU and programmed through Audrino IDE, chosen for its long-range, low-latency communication, built-in OLED display, LiPo charging system, and LoRa transceiver — making it the ideal all-in-one platform for this project.  
 
 The controller supports differential steering, live speed display, and return-to-home functionality. It communicates with the VESCs via UART, ensuring fast and reliable control response. Inputs are captured using two magnetic rotary encoders, which provide precise, drift-free feedback and can sense through the 3D-printed housing, simplifying waterproofing and improving reliability.  
 
