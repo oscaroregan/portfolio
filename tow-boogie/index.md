@@ -1,6 +1,6 @@
 # 🏄‍♂️ Tow Boogie  
 
-**Remotely operated personal watercraft designed to tow a rider while foiling.**  
+**A Remotely operated personal watercraft designed to tow a rider while foiling.**  
 My Tow Boogie combines mechanical, electrical, and control systems engineering into one integrated platform — creating a compact, powerful, and controllable craft that enables solo foil sessions without the need for a boat or partner.  
 
 This project has been a **huge learning experience**, taking me from limited hands-on knowledge to designing and building a fully functional electric watercraft.  
