@@ -49,10 +49,13 @@ Electrical connections pass through sealed box connectors originally designed by
 
 The propellers, printed from Easy Nylon and epoxy-coated for added strength, are based on a SpanMaxxing design that won an RCtestflight propeller competition. The geometry was scaled up for the Tow Boogie’s dual-motor setup, providing efficient thrust and balanced torque through counter-rotation.  
 
-### 📸 Propulsion System  
-![Propulsion System Image](images/propulsion_placeholder.png)  
+### 📸 Propulsion System 
+![motor pode](https://github.com/user-attachments/assets/6954baa0-be07-42c4-995f-f704de84ba99)
+![water cooling top](https://github.com/user-attachments/assets/9b4f28b0-0a45-42db-9c36-fcdee01227b1)
+![water cooling side](https://github.com/user-attachments/assets/43b7ba94-4d6e-4a24-baf3-212d1eaac1e0)
 
 ---
+
 
 ## 🔋 Battery Pack  
 
