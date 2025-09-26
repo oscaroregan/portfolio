@@ -1,8 +1,6 @@
 # Tow Boogie
 
-This personal project is a **remotely operated personal watercraft** designed to tow a rider while foiling.  
-My Tow Boogie combines mechanical, electrical, and control systems engineering into one integrated platform.  
-The goal was to create a compact, powerful, and controllable craft that enables solo foil sessions without the need for a boat or partner.
+This personal project is a **remotely operated personal watercraft** designed to tow a rider while foiling. My Tow Boogie combines mechanical, electrical, and control systems engineering into one integrated platform. The goal was to create a compact, powerful, and controllable craft that enables solo foil sessions without the need for a boat or partner.
 
 ---
 
@@ -23,8 +21,7 @@ The goal was to create a compact, powerful, and controllable craft that enables 
 
 ## Propulsion System
 
-My Tow Boogie uses **two Flipsky 6384 brushless motors**, each capable of **4400 W peak power**, driven by **Flipsky 75100 VESCs**.  
-To maintain stable operation up to **100 A continuous**, I designed a **custom aluminum water-cooling system** using **8 mm ID tubing** and 3D-printed **ASA motor pods** with integrated water channels for flow-through cooling.
+My Tow Boogie uses **two Flipsky 6384 brushless motors**, each capable of **4400 W peak power**, driven by **Flipsky 75100 VESCs**. To maintain stable operation up to **100 A continuous**, I designed a **custom aluminum water-cooling system** using **8 mm ID tubing** and 3D-printed **ASA motor pods** with integrated water channels for flow-through cooling.
 
 ### 📸 Propulsion System
 ![Propulsion System Placeholder](images/propulsion_placeholder.png)
@@ -33,8 +30,7 @@ To maintain stable operation up to **100 A continuous**, I designed a **custom a
 
 ## Power System
 
-The craft is powered by a **14s10P lithium-ion battery pack** built with **LG M50LT cells**, chosen for efficiency and energy density.  
-A **Battery Management System (BMS)** ensures safe operation through temperature, voltage, and cell balancing control.
+The craft is powered by a **14s10P lithium-ion battery pack** built with **LG M50LT cells**, chosen for efficiency and energy density. A **Battery Management System (BMS)** ensures safe operation through temperature, voltage, and cell balancing control.
 
 ### 📸 Battery Pack
 ![Battery Pack Placeholder](images/battery_placeholder.png)
@@ -43,9 +39,7 @@ A **Battery Management System (BMS)** ensures safe operation through temperature
 
 ## Controller System
 
-I designed a **custom handheld controller** based on the **Heltec WiFi LoRa 32 (V3)** MCU for long-range, low-latency communication.  
-Throttle and steering are measured using **magnetic rotary encoders** for precise, drift-free control.  
-The steering mechanism uses a **helical torsion spring design**, inspired by Ludwig Bre, for smooth and centered feedback.
+I designed a **custom handheld controller** based on the **Heltec WiFi LoRa 32 (V3)** MCU for long-range, low-latency communication. Throttle and steering are measured using **magnetic rotary encoders** for precise, drift-free control. The steering mechanism uses a **helical torsion spring design**, inspired by Ludwig Bre, for smooth and centered feedback.
 
 ### 📸 Controller
 ![Controller Placeholder](images/controller_placeholder.png)
@@ -54,10 +48,7 @@ The steering mechanism uses a **helical torsion spring design**, inspired by Lud
 
 ## Fabrication & Assembly
 
-The build required extensive **hands-on fabrication and electrical work**.  
-I soldered and crimped all motor and power connections, attached **QS8 high-current connectors**, and fabricated **custom copper bus bars** with **M3 tapped holes** for electrical distribution.  
-Wiring harnesses were built to withstand vibration and exposure, and all joints were sealed and strain-relieved to ensure long-term reliability in a marine environment.  
-This phase of the project brought together practical mechanical assembly and fine electrical craftsmanship.
+The build required extensive **hands-on fabrication and electrical work**. I soldered and crimped all motor and power connections, attached **QS8 high-current connectors**, and fabricated **custom copper bus bars** with **M3 tapped holes** for electrical distribution. Wiring harnesses were built to withstand vibration and exposure, and all joints were sealed and strain-relieved to ensure long-term reliability in a marine environment. This phase of the project brought together practical mechanical assembly and fine electrical craftsmanship.
 
 ### 📸 Fabrication Process
 ![Fabrication Placeholder](images/fabrication_placeholder.png)
@@ -66,9 +57,7 @@ This phase of the project brought together practical mechanical assembly and fin
 
 ## Enclosure & Mounting
 
-All electronics are enclosed in a **Pelican 1500 case**, providing waterproofing and durability.  
-**Custom Hang Loose connectors** interface the motor pods and control system, making the setup modular and serviceable.  
-The propulsion system mounts to a **Catch Surf Stump** surfboard, offering buoyancy, stability, and control — ideal for towing and foiling.
+All electronics are enclosed in a **Pelican 1500 case**, providing waterproofing and durability. **Custom Hang Loose connectors** interface the motor pods and control system, making the setup modular and serviceable. The propulsion system mounts to a **Catch Surf Stump** surfboard, offering buoyancy, stability, and control — ideal for towing and foiling.
 
 ### 📸 Enclosure & Mounting
 ![Enclosure Placeholder](images/enclosure_placeholder.png)
