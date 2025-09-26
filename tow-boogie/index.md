@@ -6,6 +6,12 @@ My Tow Boogie was built to make solo foil sessions possible without the need for
 
 This project has been a huge learning experience, taking me from little hands-on experience to building a fully functional electric watercraft from the ground up. Every part — from the battery pack to the controller — was made through trial, testing, and iteration.  
 
+This project started from bare wire and raw materials — every connection had to be soldered, crimped, or spot-welded by hand. With little prior experience, the build process became a valuable learning experience in electrical assembly, mechanical integration, and waterproof design.  
+
+Throughout the build, I quickly realized how many **tools and materials** were required — every time I thought I had everything, something new was needed. It became a process of constant problem-solving and adaptation, learning to use each new tool and technique as the project evolved.  
+
+By the end, I gained strong practical skills and a deeper understanding of how to merge electronics and mechanics in a marine environment.
+
 The Tow Boogie is still a work in progress, and future updates will focus on refining performance, improving reliability, and expanding functionality.  
 
 ---
@@ -90,8 +96,6 @@ All electronics — including the battery and VESCs — are housed in a Pelican 
 The motor pods are attached using ¼-inch steel bolts, ensuring rigidity under load. All external connectors were sealed with silicone or compression molds, and cable glands were used for the water-cooling inlets and outlets to maintain watertight integrity.  
 
 For towing, I used a 1x1¼-inch steel angle with holes along its length. This allowed for the tow point to be adjusted forward or backward to fine-tune how the board handles under load. A stainless steel carabiner was attached to the end of the rod, which connected to the tow rope.  
-
-This project started from bare wire and raw materials — every connection had to be soldered, crimped, or spot-welded by hand. With little prior experience, the build process became a valuable learning experience in electrical assembly, mechanical integration, and waterproof design. By the end, I gained strong practical skills and a deeper understanding of how to merge electronics and mechanics in a marine environment.  
 
 The motor positioning was informed by other Tow Boogie builds shared on the foil.zone forum. In particular, I referenced JDUB’s build, which used a similar surfboard layout. Since the electronics enclosure can be repositioned, exact motor placement wasn’t critical, as thrust balance can be tuned by shifting the case. Keeping the motors close together was important to prevent roll instability and minimize pitching moments.  
 
