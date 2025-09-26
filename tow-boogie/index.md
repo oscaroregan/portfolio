@@ -4,9 +4,7 @@
 
 My **Tow Boogie** was built to make solo foil sessions possible — a compact and powerful craft that integrates mechanical, electrical, and control systems into one functional platform.  
 
-The project involved designing and building the majority component from the ground up. With limited prior experience, I learned the fabrication, wiring, and assembly processes required to bring everything together.  
-
-The build required an extensive range of tools, materials, and processes. There were countless small parts and connections that all needed to work in unison, and progress often depended on tracking down a specific tool or fitting before the next step could continue.  
+Throughout the build, I quickly realized how many **tools and materials** were required — every time I thought I had everything, something new was needed. It became a process of constant problem-solving and adaptation, learning to use each new tool and technique as the project evolved. By the end, I gained strong practical skills and a deeper understanding of how to merge electronics and mechanics in a marine environment.
 
 The **Tow Boogie** took a significant amount of **time, effort, and cost** to complete, but the result is a fully functional electric watercraft built entirely from raw materials and custom components. It remains a **work in progress**, with future updates aimed at improving performance, reliability, and usability.
 
