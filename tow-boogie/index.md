@@ -1,36 +1,91 @@
-#Tow Boogie
+# Tow Boogie
 
-A Tow Boogie is a remotely operated personal watercraft designed to tow a rider while foiling — combining elements of power, control, and efficiency in a compact form. My Tow Boogie is the result of extensive design, prototyping, and testing aimed at creating a reliable solo towing system for foil sessions without the need for a boat or partner.
+This personal project is a **remotely operated personal watercraft** designed to tow a rider while foiling.  
+My Tow Boogie combines mechanical, electrical, and control systems engineering into one integrated platform.  
+The goal was to create a compact, powerful, and controllable craft that enables solo foil sessions without the need for a boat or partner.
 
-The project brings together mechanical, electrical, and control systems engineering into one integrated platform. Every component — from propulsion to electronics to structural design — has been carefully developed and refined through continuous experimentation and iteration.
+---
 
-Propulsion System
+## Skills Applied
+- Mechanical and electrical system integration  
+- Embedded systems design (Heltec WiFi LoRa 32 V3 MCU)  
+- Wireless control and communication (LoRa)  
+- Brushless motor control (Flipsky VESCs)  
+- Custom water-cooling system design  
+- Battery pack assembly (14s10P LG M50LT cells)  
+- 3D printing and CAD modeling  
+- Precision soldering, crimping, and electrical fabrication  
 
-My Tow Boogie is powered by two Flipsky 6384 brushless motors, each capable of delivering up to 4400 W peak power. These motors are controlled by Flipsky 75100 VESCs, providing precise throttle response and differntial steering.
+### 📸 Skills & Overview
+![Overview Image Placeholder](images/overview_placeholder.png)
 
-To maintain continuous operation at high currents, I designed a custom water-cooling system using a 15mm aluminum water cooling block and 8 mm inner-diameter tubing. The 3D-printed ASA motor pods feature integrated channels for wiring and water intake, using the board’s forward velocity to circulate cooling water effectively.
+---
 
-Power System
+## Propulsion System
 
-My Tow Boogie runs on a 14s10P lithium-ion battery pack built from LG M50LT cells. These cells were chosen for their excellent efficiency and thermal stability at low to moderate current levels. The pack includes a battery management system (BMS) for monitoring voltage, temperature, and balancing, ensuring safe and reliable operation.
+My Tow Boogie uses **two Flipsky 6384 brushless motors**, each capable of **4400 W peak power**, driven by **Flipsky 75100 VESCs**.  
+To maintain stable operation up to **100 A continuous**, I designed a **custom aluminum water-cooling system** using **8 mm ID tubing** and 3D-printed **ASA motor pods** with integrated water channels for flow-through cooling.
 
-Controller System
+### 📸 Propulsion System
+![Propulsion System Placeholder](images/propulsion_placeholder.png)
 
-To control my Tow Boogie, I designed a custom handheld controller built around the Heltec WiFi LoRa 32 (V3) microcontroller unit. Communication between the controller and board is handled via LoRa, providing excellent long-range, low-latency performance even over open water.
+---
 
-The throttle and steering inputs are measured using magnetic rotary encoders, giving precise and drift-free control. For the steering mechanism, I drew inspiration from _Ludwig Bre’s_ helical spring design, integrating a torsional spring system that offers smooth, centered steering feedback and durability.
+## Power System
 
-This controller system has demonstrated excellent range and responsiveness during testing and has been fully integrated into the board’s VESC communication network.
+The craft is powered by a **14s10P lithium-ion battery pack** built with **LG M50LT cells**, chosen for efficiency and energy density.  
+A **Battery Management System (BMS)** ensures safe operation through temperature, voltage, and cell balancing control.
 
-Fabrication & Enclosure
+### 📸 Battery Pack
+![Battery Pack Placeholder](images/battery_placeholder.png)
 
-All electronics in my Tow Boogie are housed within a Pelican 1500 case, chosen for its waterproof and impact-resistant construction. I incorporated custom connectors by _Hang Loose_ to link the internal VESCs with the external motor pods, allowing for quick disconnection and maintenance.
+---
 
-Board
+## Controller System
 
-The propulsion system of my Tow Boogie is mounted to a Catch Surf Stump surfboard, offering a balance of buuverability, and compactness. Its stability makes it ideal for towing and foiling applications.oyancy, mane
+I designed a **custom handheld controller** based on the **Heltec WiFi LoRa 32 (V3)** MCU for long-range, low-latency communication.  
+Throttle and steering are measured using **magnetic rotary encoders** for precise, drift-free control.  
+The steering mechanism uses a **helical torsion spring design**, inspired by Ludwig Bre, for smooth and centered feedback.
 
-Project Overview
+### 📸 Controller
+![Controller Placeholder](images/controller_placeholder.png)
 
-From CAD modeling and 3D printing to embedded programming and battery assembly, this project pushed me to combine theory with hands-on engineering practice.
+---
 
+## Fabrication & Assembly
+
+The build required extensive **hands-on fabrication and electrical work**.  
+I soldered and crimped all motor and power connections, attached **QS8 high-current connectors**, and fabricated **custom copper bus bars** with **M3 tapped holes** for electrical distribution.  
+Wiring harnesses were built to withstand vibration and exposure, and all joints were sealed and strain-relieved to ensure long-term reliability in a marine environment.  
+This phase of the project brought together practical mechanical assembly and fine electrical craftsmanship.
+
+### 📸 Fabrication Process
+![Fabrication Placeholder](images/fabrication_placeholder.png)
+
+---
+
+## Enclosure & Mounting
+
+All electronics are enclosed in a **Pelican 1500 case**, providing waterproofing and durability.  
+**Custom Hang Loose connectors** interface the motor pods and control system, making the setup modular and serviceable.  
+The propulsion system mounts to a **Catch Surf Stump** surfboard, offering buoyancy, stability, and control — ideal for towing and foiling.
+
+### 📸 Enclosure & Mounting
+![Enclosure Placeholder](images/enclosure_placeholder.png)
+
+---
+
+## My Tow Boogie in Action
+
+Add photos, test videos, and CAD previews below!  
+
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/XXXXXXXXXXX?autoplay=0&playsinline=1" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
+
+### 📸 In Action
+![Tow Boogie on Water](images/in_action_placeholder.png)
