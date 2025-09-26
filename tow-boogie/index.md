@@ -2,17 +2,13 @@
 
 **A remotely operated personal watercraft designed to tow a rider while foiling.**  
 
-My Tow Boogie was built to make solo foil sessions possible without the need for a boat or partner. It’s a compact and powerful craft that brings together the mechanical, electrical, and control systems needed to make that happen.  
+My **Tow Boogie** was built to make solo foil sessions possible — a compact and powerful craft that integrates mechanical, electrical, and control systems into one functional platform.  
 
-This project has been a huge learning experience, taking me from little hands-on experience to building a fully functional electric watercraft from the ground up. Every part — from the battery pack to the controller — was made through trial, testing, and iteration.  
+The project involved designing and building the majority component from the ground up. With limited prior experience, I learned the fabrication, wiring, and assembly processes required to bring everything together.  
 
-This project started from bare wire and raw materials — every connection had to be soldered, crimped, or spot-welded by hand. With little prior experience, the build process became a valuable learning experience in electrical assembly, mechanical integration, and waterproof design.  
+The build required an extensive range of tools, materials, and processes. There were countless small parts and connections that all needed to work in unison, and progress often depended on tracking down a specific tool or fitting before the next step could continue.  
 
-Throughout the build, I quickly realized how many **tools and materials** were required — every time I thought I had everything, something new was needed. It became a process of constant problem-solving and adaptation, learning to use each new tool and technique as the project evolved.  
-
-By the end, I gained strong practical skills and a deeper understanding of how to merge electronics and mechanics in a marine environment.
-
-The Tow Boogie is still a work in progress, and future updates will focus on refining performance, improving reliability, and expanding functionality.  
+The **Tow Boogie** took a significant amount of **time, effort, and cost** to complete, but the result is a fully functional electric watercraft built entirely from raw materials and custom components. It remains a **work in progress**, with future updates aimed at improving performance, reliability, and usability.
 
 ---
 
