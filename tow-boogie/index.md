@@ -29,7 +29,7 @@ The Tow Boogie is still a **work in progress**, and future updates will focus on
 ## ⚙️ Skills Applied  
 
 - Mechanical and electrical system integration  
-- Embedded systems design (Heltec WiFi LoRa 32 V3 MCU)  
+- Embedded systems design (Heltec WiFi LoRa V3 MCU)  
 - Wireless control and communication (LoRa)  
 - Motor control (VESC Tool)  
 - Custom water-cooling system design  
