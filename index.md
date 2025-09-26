@@ -8,7 +8,6 @@ title: Oscar O'Regan Portfolio
 A fourth-year Mechanical Engineering student at the University of Victoria
 
 - [Automated Conveyor Sorter](./conveyor-sorter/)
-<!--- [Gearbox Design Project](./gearbox-design/)-->
 - [Boxing Animation](./boxing-animation/)
 
   
