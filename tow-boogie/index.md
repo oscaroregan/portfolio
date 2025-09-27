@@ -2,9 +2,9 @@
 
 **A remotely operated personal watercraft designed to tow a rider while foiling.**  
 
-My **Tow Boogie** was built to make solo foil sessions possible — a compact and powerful craft that integrates mechanical, electrical, and control systems into one functional platform.  
+My Tow Boogie was built to make solo foil sessions possible — a compact and powerful craft that integrates mechanical, electrical, and control systems into one functional platform.  
 
-Building the **Tow Boogie** took a significant amount of time, effort, and cost to complete, but the result is a fully functional electric watercraft built entirely from raw materials and custom components. It remains a work in progress, with future updates aimed at improving performance, reliability, and usability.
+Building the Tow Boogie took a significant amount of time, effort, and cost to complete, but the result is a fully functional electric watercraft built entirely from raw materials and custom components. It remains a work in progress, with future updates aimed at improving performance, reliability, and usability.
 
 ---
 
