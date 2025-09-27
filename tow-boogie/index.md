@@ -1,3 +1,10 @@
+<style>
+img {
+  width: 400px;
+  height: auto;
+}
+</style>
+
 # 🏄‍♂️ Tow Boogie  
 
 **A remotely operated personal watercraft designed to tow a rider while foiling.**  
@@ -20,7 +27,7 @@ Building the **Tow Boogie** took a significant amount of time, effort, and cost 
   allowfullscreen>  
 </iframe>  
 
-> ⚡ *Note: This video shows initial testing — the system is not running at full power yet. The foil setup used a 60L board with an Armstrong, HA 880 cm² front wing, and FV 200 cm² rear stabilizer.*  
+> ⚡ *Note: This video shows initial testing — the system is not running at full power yet. Foil setup - 60L board with an Armstrong, HA 880 cm² front wing, and FV 200 cm² rear stabilizer.*  
 
 ---
 
