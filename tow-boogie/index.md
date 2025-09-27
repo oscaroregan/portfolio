@@ -8,7 +8,7 @@ Building the Tow Boogie took a significant amount of time, effort, and cost to c
 
 ---
 
-## Project Overview Video  
+## Project Overview
 
 <iframe  
   width="720"  
