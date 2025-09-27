@@ -4,9 +4,9 @@
 
 My **Tow Boogie** was built to make solo foil sessions possible — a compact and powerful craft that integrates mechanical, electrical, and control systems into one functional platform.  
 
-Throughout the build, I quickly realized how many **tools and materials** were required — every time I thought I had everything, something new was needed. It became a process of constant problem-solving and adaptation, learning to use each new tool and technique as the project evolved. By the end, I gained strong practical skills and a deeper understanding of how to merge electronics and mechanics in a marine environment.
+Throughout the build, I quickly realized how many tools and materials** were required — every time I thought I had everything, something new was needed. It became a process of constant problem-solving and adaptation, learning to use each new tool and technique as the project evolved. By the end, I gained strong practical skills and a deeper understanding of how to merge electronics and mechanics in a marine environment.
 
-Building the **Tow Boogie** took a significant amount of **time, effort, and cost** to complete, but the result is a fully functional electric watercraft built entirely from raw materials and custom components. It remains a **work in progress**, with future updates aimed at improving performance, reliability, and usability.
+Building the **Tow Boogie** took a significant amount of time, effort, and cost to complete, but the result is a fully functional electric watercraft built entirely from raw materials and custom components. It remains a work in progress, with future updates aimed at improving performance, reliability, and usability.
 
 ---
 
@@ -27,12 +27,12 @@ Building the **Tow Boogie** took a significant amount of **time, effort, and cos
 ## ⚙️ Skills Applied  
 
 - Mechanical and electrical system integration  
-- Embedded systems design (Heltec WiFi LoRa V3, Audrino IDE)  
+- Embedded systems design (Heltec WiFi LoRa V3, Arduino IDE)  
 - Wireless control and communication (LoRa)  
 - Motor control (VESC Tool)  
 - Custom water-cooling system design  
 - Battery pack assembly (14s10P LG M50LT cells)  
-- 3D printing (PLA, PETG, ASA, and Nylon) and CAD modeling (Onshape and SolidWorks)  
+- 3D printing (PLA, PETG, ASA, and Nylon) and CAD modelling (Onshape and SolidWorks)  
 - Mechanical and electrical fabrication  
 
 ### 📸 Project Overview  
@@ -61,7 +61,7 @@ The propellers, printed from Easy Nylon and epoxy-coated for added strength, are
 
 The craft is powered by a 14s10P lithium-ion battery pack built with LG M50LT cells, chosen for their efficiency at low to medium discharge rates. The battery boasts a 48 Ah total capacity and supports a continuous discharge of 5000 W, managed by a Battery Management System (BMS) for temperature, voltage, and cell balancing.  
 
-The pack was assembled using 3D-printed cell holders for precise alignment and structural rigidity. Each cell is connected using 0.15 mm pure nickel strips, spot-welded for secure, low-resistance joints. To enable the use of lug connectors instead of soldered leads, 3 mm pure copper bus bars were fabricated and tapped with M3 threads to fasten the nickel strips — giving the pack a clean, modular design and simplifying discharge wiring.  
+The pack was assembled using 3D-printed cell holders for precise alignment and structural rigidity. Each cell is connected using 0.15 mm pure nickel strips, spot-welded for secure, low-resistance joints. To enable the use of lug connectors instead of soldered leads, 3 mm pure copper bus bars were fabricated and tapped with M3 threads to fasten the nickel strips, giving the pack a clean, modular design and simplifying discharge wiring.  
 
 Charging is handled through the BMS with a 5 A charger connected via an XT30 port, while discharge to the VESCs is managed through QS8 anti-spark connectors for safe, high-current operation. The completed pack is insulated and protected with fish paper, Kapton tape, and heat shrink, ensuring electrical isolation and mechanical durability.  
 
@@ -75,11 +75,11 @@ Charging is handled through the BMS with a 5 A charger connected via an XT30 por
 
 ## 🎮 Controller System 
 
-The custom handheld controller is built around the Heltec WiFi LoRa (V3) MCU and programmed through Audrino IDE, chosen for its long-range, low-latency communication, built-in OLED display, LiPo charging system, and LoRa transceiver — making it the ideal all-in-one platform for this project.  
+The custom handheld controller is built around the Heltec WiFi LoRa (V3) MCU and programmed through Arduino IDE, chosen for its long-range, low-latency communication, built-in OLED display, LiPo charging system, and LoRa transceiver — making it the ideal all-in-one platform for this project.  
 
 The controller supports differential steering, live speed display, and return-to-home functionality. It communicates with the VESCs via UART, ensuring fast and reliable control response. Inputs are captured using two magnetic rotary encoders, which provide precise, drift-free feedback and can sense through the 3D-printed housing, simplifying waterproofing and improving reliability.  
 
-For steering, I adapted Ludwig Bre’s helical torsion spring mechanism, which provides smooth, self-centering feedback. A GPS module is also included for future features such as live telemetry and return-to-home, though it is not currently integrated into control.  
+For steering, I adapted Ludwig Bre’s helical torsion spring mechanism, which provides smooth, self-centring feedback. A GPS module is also included for future features such as live telemetry and return-to-home, though it is not currently integrated into control.  
 
 Powered by a 3.7 V LiPo battery, the controller was 3D-printed from PLA and designed for expandability and accessibility. While still in testing, it performs its core functions well and will continue to evolve with additional features. All components are off-the-shelf, making the design easy to reproduce or modify.  
 
@@ -95,11 +95,11 @@ The Tow Boogie (or Tow Stump) was built on a Catch Surf Stump surfboard, chosen 
 
 All electronics — including the battery and VESCs — are housed in a Pelican 1500 case for waterproofing and impact protection. Because the system’s balance point was uncertain before full assembly, the enclosure was made adjustable along the board, allowing the center of mass to be fine-tuned during testing. The case is secured with ratchet straps, providing a strong but removable mounting solution.  
 
-The motor pods are attached using ¼-inch steel bolts, ensuring rigidity under load. All external connectors were sealed with silicone or compression molds, and cable glands were used for the water-cooling inlets and outlets to maintain watertight integrity.  
+The motor pods are attached using ¼-inch steel bolts, ensuring rigidity under load. All external connectors were sealed with silicone or compression moulds, and cable glands were used for the water-cooling inlets and outlets to maintain watertight integrity.  
 
 For towing, I used a 1x1¼-inch steel angle with holes along its length. This allowed for the tow point to be adjusted forward or backward to fine-tune how the board handles under load. A stainless steel carabiner was attached to the end of the rod, which connected to the tow rope.  
 
-The motor positioning was informed by other Tow Boogie builds shared on the foil.zone forum. In particular, I referenced JDUB’s build, which used a similar surfboard layout. Since the electronics enclosure can be repositioned, exact motor placement wasn’t critical, as thrust balance can be tuned by shifting the case. Keeping the motors close together was important to prevent roll instability and minimize pitching moments.  
+The motor positioning was decided based on other Tow Boogie builds shared on the foil.zone forum. In particular, I referenced JDUB’s build, which used a similar surfboard layout. Since the electronics enclosure can be repositioned, exact motor placement wasn’t critical, as thrust balance can be tuned by shifting the case. Keeping the motors close together was important to prevent roll instability and minimize pitching moments.  
 
 <!--### 📸 Fabrication Process  
 ![Fabrication Image](images/fabrication_placeholder.png)  -->
