@@ -1,4 +1,4 @@
-# 🏄‍♂️ Tow Boogie  
+# Tow Boogie  
 
 **A remotely operated personal watercraft designed to tow a rider while foiling.**  
 
@@ -8,7 +8,7 @@ Building the Tow Boogie took a significant amount of time, effort, and cost to c
 
 ---
 
-## 🎥 Project Overview Video  
+## Project Overview Video  
 
 <iframe  
   width="720"  
@@ -18,11 +18,11 @@ Building the Tow Boogie took a significant amount of time, effort, and cost to c
   allowfullscreen>  
 </iframe>  
 
-> ⚡ *Note: This video shows initial testing — the system is not running at full power yet. Foil setup - 60L board with an Armstrong, HA 880 cm² front wing, and FV 200 cm² rear stabilizer.*  
+> *Note: This video shows initial testing — the system is not running at full power yet. Foil setup - 60L board with an Armstrong, HA 880 cm² front wing, and FV 200 cm² rear stabilizer.*  
 
 ---
 
-## ⚙️ Skills Applied  
+## Skills Applied  
 
 - Mechanical and electrical system integration  
 - Embedded systems design (Heltec WiFi LoRa V3, Arduino IDE)  
@@ -33,13 +33,13 @@ Building the Tow Boogie took a significant amount of time, effort, and cost to c
 - 3D printing (PLA, PETG, ASA, and Nylon) and CAD modelling (Onshape and SolidWorks)  
 - Mechanical and electrical fabrication  
 
-### 📸 Project Overview  
+### Project Overview  
 ![tow boogie top](https://github.com/user-attachments/assets/7ecc22ee-13d2-4a79-9d59-73e81913993f)
 ![tow boogie side](https://github.com/user-attachments/assets/88d7df0c-b79c-4bf3-b7ae-60ba6e208572)
 
 ---
 
-## ⚡ Propulsion System  
+## Propulsion System  
 
 The Tow Boogie uses two counter-rotating Flipsky 6384 brushless motors, each rated for 2800 W continuous power and driven by Flipsky 75100 VESCs. To ensure reliable operation up to 150 A continuous, the VESCs are mounted to a 15 mm aluminum water-cooling block with routed internal channels. The PCBs are pressed firmly against the block using a custom 3D-printed jig with silicone molds for uniform compression, and thermal paste is applied to maximize heat transfer.  
 
@@ -47,7 +47,7 @@ Electrical connections pass through sealed box connectors originally designed by
 
 The propellers, printed from Easy Nylon and epoxy-coated for added strength, are based on a SpanMaxxing design that won an RCtestflight propeller competition. The geometry was scaled up for the Tow Boogie’s dual-motor setup, providing efficient thrust and balanced torque through counter-rotation.  
 
-### 📸 Propulsion System 
+### Propulsion System 
 ![motor pode](https://github.com/user-attachments/assets/6954baa0-be07-42c4-995f-f704de84ba99)
 ![water cooling top](https://github.com/user-attachments/assets/9b4f28b0-0a45-42db-9c36-fcdee01227b1)
 ![water cooling side](https://github.com/user-attachments/assets/43b7ba94-4d6e-4a24-baf3-212d1eaac1e0)
@@ -55,7 +55,7 @@ The propellers, printed from Easy Nylon and epoxy-coated for added strength, are
 ---
 
 
-## 🔋 Battery Pack  
+## Battery Pack  
 
 The craft is powered by a 14s10P lithium-ion battery pack built with LG M50LT cells, chosen for their efficiency at low to medium discharge rates. The battery boasts a 48 Ah total capacity and supports a continuous discharge of 5000 W, managed by a Battery Management System (BMS) for temperature, voltage, and cell balancing.  
 
@@ -63,7 +63,7 @@ The pack was assembled using 3D-printed cell holders for precise alignment and s
 
 Charging is handled through the BMS with a 5 A charger connected via an XT30 port, while discharge to the VESCs is managed through QS8 anti-spark connectors for safe, high-current operation. The completed pack is insulated and protected with fish paper, Kapton tape, and heat shrink, ensuring electrical isolation and mechanical durability.  
 
-### 📸 Battery Pack  
+### Battery Pack  
 ![Battery 1](https://github.com/user-attachments/assets/d939f117-9533-4672-958e-8b0e5f332db4)
 ![Battery 2](https://github.com/user-attachments/assets/9fcd02d6-c7c7-4425-aec6-a91bbeebef27)
 ![Battery 3](https://github.com/user-attachments/assets/560d1a01-e393-4879-9586-9947e77c916d)
@@ -71,7 +71,7 @@ Charging is handled through the BMS with a 5 A charger connected via an XT30 por
 
 ---
 
-## 🎮 Controller System 
+## Controller System 
 
 The custom handheld controller is built around the Heltec WiFi LoRa (V3) MCU and programmed through Arduino IDE, chosen for its long-range, low-latency communication, built-in OLED display, LiPo charging system, and LoRa transceiver — making it the ideal all-in-one platform for this project.  
 
@@ -81,14 +81,14 @@ For steering, I adapted Ludwig Bre’s helical torsion spring mechanism, which p
 
 Powered by a 3.7 V LiPo battery, the controller was 3D-printed from PLA and designed for expandability and accessibility. While still in testing, it performs its core functions well and will continue to evolve with additional features. All components are off-the-shelf, making the design easy to reproduce or modify.  
 
-### 📸 Controller  
+### Controller  
 ![Controller](https://github.com/user-attachments/assets/86fd37aa-5840-45f5-83be-c3d581a4011c) 
 ![Controller 2](https://github.com/user-attachments/assets/802c8351-e898-4f26-9fdc-24fb62d0d42d)
 
 ---
 
 
-## 🛠️ Fabrication & Assembly  
+## Fabrication & Assembly  
 
 The Tow Boogie (or Tow Stump) was built on a Catch Surf Stump surfboard, chosen for its rockered nose and improved performance in choppy water compared to the flat-nosed boogie boards that inspired the original design.  
 
