@@ -1,10 +1,3 @@
-<style>
-img {
-  width: 400px;
-  height: 200px;
-}
-</style>
-
 # 🏄‍♂️ Tow Boogie  
 
 **A remotely operated personal watercraft designed to tow a rider while foiling.**  
