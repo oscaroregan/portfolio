@@ -84,9 +84,10 @@ For steering, I adapted Ludwig Bre’s helical torsion spring mechanism, which p
 Powered by a 3.7 V LiPo battery, the controller was 3D-printed from PLA and designed for expandability and accessibility. While still in testing, it performs its core functions well and will continue to evolve with additional features. All components are off-the-shelf, making the design easy to reproduce or modify.  
 
 ### 📸 Controller  
-![Controller Image](images/controller_placeholder.png)  
+![Controller](https://github.com/user-attachments/assets/86fd37aa-5840-45f5-83be-c3d581a4011c) 
 
 ---
+
 
 ## 🛠️ Fabrication & Assembly  
 
