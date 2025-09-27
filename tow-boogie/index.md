@@ -32,8 +32,7 @@ Building the Tow Boogie took a significant amount of time, effort, and cost to c
 - Battery pack assembly (14s10P LG M50LT cells)  
 - 3D printing (PLA, PETG, ASA, and Nylon) and CAD modelling (Onshape and SolidWorks)  
 - Mechanical and electrical fabrication  
-
-### Project Overview  
+ 
 ![tow boogie top](https://github.com/user-attachments/assets/7ecc22ee-13d2-4a79-9d59-73e81913993f)
 ![tow boogie side](https://github.com/user-attachments/assets/88d7df0c-b79c-4bf3-b7ae-60ba6e208572)
 
@@ -47,7 +46,6 @@ Electrical connections pass through sealed box connectors originally designed by
 
 The propellers, printed from Easy Nylon and epoxy-coated for added strength, are based on a SpanMaxxing design that won an RCtestflight propeller competition. The geometry was scaled up for the Tow Boogie’s dual-motor setup, providing efficient thrust and balanced torque through counter-rotation.  
 
-### Propulsion System 
 ![motor pode](https://github.com/user-attachments/assets/6954baa0-be07-42c4-995f-f704de84ba99)
 ![water cooling top](https://github.com/user-attachments/assets/9b4f28b0-0a45-42db-9c36-fcdee01227b1)
 ![water cooling side](https://github.com/user-attachments/assets/43b7ba94-4d6e-4a24-baf3-212d1eaac1e0)
@@ -62,8 +60,7 @@ The craft is powered by a 14s10P lithium-ion battery pack built with LG M50LT ce
 The pack was assembled using 3D-printed cell holders for precise alignment and structural rigidity. Each cell is connected using 0.15 mm pure nickel strips, spot-welded for secure, low-resistance joints. To enable the use of lug connectors instead of soldered leads, 3 mm pure copper bus bars were fabricated and tapped with M3 threads to fasten the nickel strips, giving the pack a clean, modular design and simplifying discharge wiring.  
 
 Charging is handled through the BMS with a 5 A charger connected via an XT30 port, while discharge to the VESCs is managed through QS8 anti-spark connectors for safe, high-current operation. The completed pack is insulated and protected with fish paper, Kapton tape, and heat shrink, ensuring electrical isolation and mechanical durability.  
-
-### Battery Pack  
+ 
 ![Battery 1](https://github.com/user-attachments/assets/d939f117-9533-4672-958e-8b0e5f332db4)
 ![Battery 2](https://github.com/user-attachments/assets/9fcd02d6-c7c7-4425-aec6-a91bbeebef27)
 ![Battery 3](https://github.com/user-attachments/assets/560d1a01-e393-4879-9586-9947e77c916d)
@@ -80,8 +77,7 @@ The controller supports differential steering, live speed display, and return-to
 For steering, I adapted Ludwig Bre’s helical torsion spring mechanism, which provides smooth, self-centring feedback. A GPS module is also included for future features such as live telemetry and return-to-home, though it is not currently integrated into control.  
 
 Powered by a 3.7 V LiPo battery, the controller was 3D-printed from PLA and designed for expandability and accessibility. While still in testing, it performs its core functions well and will continue to evolve with additional features. All components are off-the-shelf, making the design easy to reproduce or modify.  
-
-### Controller  
+ 
 ![Controller](https://github.com/user-attachments/assets/86fd37aa-5840-45f5-83be-c3d581a4011c) 
 ![Controller 2](https://github.com/user-attachments/assets/802c8351-e898-4f26-9fdc-24fb62d0d42d)
 
@@ -101,5 +97,3 @@ For towing, I used a 1x1¼-inch steel angle with holes along its length. This al
 The motor positioning was decided based on other Tow Boogie builds shared on the foil.zone forum. In particular, I referenced JDUB’s build, which used a similar surfboard layout. Since the electronics enclosure can be repositioned, exact motor placement wasn’t critical, as thrust balance can be tuned by shifting the case. Keeping the motors close together was important to prevent roll instability and minimize pitching moments.  
 
 Throughout the build, I realized just how many specialized tools and materials were needed — every stage seemed to introduce a new challenge. Much of the process involved careful soldering, wiring, and assembling high-current connectors to ensure safe and reliable electrical performance. Every joint, crimp, and seal had to be precise to prevent water ingress or electrical faults. What began as a mechanical project quickly became an exercise in problem-solving and integration, learning new techniques as I went. By the end, I had not only gained strong practical fabrication skills but also a deep understanding of how to merge electronics and mechanics into a robust system that can perform in a harsh marine environment.
-<!--### 📸 Fabrication Process  
-![Fabrication Image](images/fabrication_placeholder.png)  -->
