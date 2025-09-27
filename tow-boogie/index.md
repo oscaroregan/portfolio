@@ -92,6 +92,7 @@ Powered by a 3.7 V LiPo battery, the controller was 3D-printed from PLA and desi
 
 ### 📸 Controller  
 ![Controller](https://github.com/user-attachments/assets/86fd37aa-5840-45f5-83be-c3d581a4011c) 
+![Controller 2](https://github.com/user-attachments/assets/802c8351-e898-4f26-9fdc-24fb62d0d42d)
 
 ---
 
