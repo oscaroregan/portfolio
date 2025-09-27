@@ -4,8 +4,6 @@
 
 My **Tow Boogie** was built to make solo foil sessions possible — a compact and powerful craft that integrates mechanical, electrical, and control systems into one functional platform.  
 
-Throughout the build, I quickly realized how many tools and materials** were required — every time I thought I had everything, something new was needed. It became a process of constant problem-solving and adaptation, learning to use each new tool and technique as the project evolved. By the end, I gained strong practical skills and a deeper understanding of how to merge electronics and mechanics in a marine environment.
-
 Building the **Tow Boogie** took a significant amount of time, effort, and cost to complete, but the result is a fully functional electric watercraft built entirely from raw materials and custom components. It remains a work in progress, with future updates aimed at improving performance, reliability, and usability.
 
 ---
@@ -102,5 +100,6 @@ For towing, I used a 1x1¼-inch steel angle with holes along its length. This al
 
 The motor positioning was decided based on other Tow Boogie builds shared on the foil.zone forum. In particular, I referenced JDUB’s build, which used a similar surfboard layout. Since the electronics enclosure can be repositioned, exact motor placement wasn’t critical, as thrust balance can be tuned by shifting the case. Keeping the motors close together was important to prevent roll instability and minimize pitching moments.  
 
+Throughout the build, I realized just how many specialized tools and materials were needed — every stage seemed to introduce a new challenge. Much of the process involved careful soldering, wiring, and assembling high-current connectors to ensure safe and reliable electrical performance. Every joint, crimp, and seal had to be precise to prevent water ingress or electrical faults. What began as a mechanical project quickly became an exercise in problem-solving and integration, learning new techniques as I went. By the end, I had not only gained strong practical fabrication skills but also a deep understanding of how to merge electronics and mechanics into a robust system that can perform in a harsh marine environment.
 <!--### 📸 Fabrication Process  
 ![Fabrication Image](images/fabrication_placeholder.png)  -->
