@@ -6,7 +6,7 @@ My **Tow Boogie** was built to make solo foil sessions possible — a compact an
 
 Throughout the build, I quickly realized how many **tools and materials** were required — every time I thought I had everything, something new was needed. It became a process of constant problem-solving and adaptation, learning to use each new tool and technique as the project evolved. By the end, I gained strong practical skills and a deeper understanding of how to merge electronics and mechanics in a marine environment.
 
-The **Tow Boogie** took a significant amount of **time, effort, and cost** to complete, but the result is a fully functional electric watercraft built entirely from raw materials and custom components. It remains a **work in progress**, with future updates aimed at improving performance, reliability, and usability.
+Building the **Tow Boogie** took a significant amount of **time, effort, and cost** to complete, but the result is a fully functional electric watercraft built entirely from raw materials and custom components. It remains a **work in progress**, with future updates aimed at improving performance, reliability, and usability.
 
 ---
 
@@ -66,11 +66,14 @@ The pack was assembled using 3D-printed cell holders for precise alignment and s
 Charging is handled through the BMS with a 5 A charger connected via an XT30 port, while discharge to the VESCs is managed through QS8 anti-spark connectors for safe, high-current operation. The completed pack is insulated and protected with fish paper, Kapton tape, and heat shrink, ensuring electrical isolation and mechanical durability.  
 
 ### 📸 Battery Pack  
-![Battery Pack Image](images/battery_placeholder.png)  
+![Battery 1](https://github.com/user-attachments/assets/d939f117-9533-4672-958e-8b0e5f332db4)
+![Battery 2](https://github.com/user-attachments/assets/9fcd02d6-c7c7-4425-aec6-a91bbeebef27)
+![Battery 3](https://github.com/user-attachments/assets/560d1a01-e393-4879-9586-9947e77c916d)
+![Battery 4](https://github.com/user-attachments/assets/526f590c-3345-4f54-9293-2635c5d21616)
 
 ---
 
-## 🎮 Controller System  
+## 🎮 Controller System 
 
 The custom handheld controller is built around the Heltec WiFi LoRa (V3) MCU and programmed through Audrino IDE, chosen for its long-range, low-latency communication, built-in OLED display, LiPo charging system, and LoRa transceiver — making it the ideal all-in-one platform for this project.  
 
