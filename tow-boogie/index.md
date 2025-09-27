@@ -101,5 +101,5 @@ For towing, I used a 1x1¼-inch steel angle with holes along its length. This al
 
 The motor positioning was informed by other Tow Boogie builds shared on the foil.zone forum. In particular, I referenced JDUB’s build, which used a similar surfboard layout. Since the electronics enclosure can be repositioned, exact motor placement wasn’t critical, as thrust balance can be tuned by shifting the case. Keeping the motors close together was important to prevent roll instability and minimize pitching moments.  
 
-### 📸 Fabrication Process  
-![Fabrication Image](images/fabrication_placeholder.png)  
+<!--### 📸 Fabrication Process  
+![Fabrication Image](images/fabrication_placeholder.png)  -->
