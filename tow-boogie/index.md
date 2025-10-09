@@ -70,11 +70,11 @@ Charging is handled through the BMS with a 5 A charger connected via an XT30 por
 
 ## Controller System 
 
-The custom handheld controller is built around the Heltec WiFi LoRa (V3) MCU and programmed through Arduino IDE, chosen for its long-range, low-latency communication, built-in OLED display, LiPo charging system, and LoRa transceiver — making it the ideal all-in-one platform for this project.  
+The custom handheld controller is built around the Heltec WiFi LoRa 32 (V3) and programmed through Arduino IDE, chosen for its long-range, low-latency communication, built-in OLED display, LiPo charging system, and LoRa transceiver — making it the ideal all-in-one platform for this project.  
 
-The controller supports differential steering, live speed display, and return-to-home functionality. It communicates with the VESCs via UART, ensuring fast and reliable control response. Inputs are captured using two magnetic rotary encoders, which provide precise, drift-free feedback and can sense through the 3D-printed housing, simplifying waterproofing and improving reliability.  
+The controller supports differential steering and live speed and power telemetry. It communicates with the VESCs via UART, ensuring fast and reliable control response. Inputs are captured using two magnetic rotary encoders, which provide precise, drift-free feedback and can sense through the 3D-printed housing, simplifying waterproofing and improving reliability. A GPS module is also included to a allow for live speed telemetry.
 
-For steering, I adapted Ludwig Bre’s helical torsion spring mechanism, which provides smooth, self-centring feedback. A GPS module is also included for future features such as live speed telemetry and return-to-home, though it is not currently integrated into control.  
+For steering, I adapted Ludwig Bre’s helical torsion spring mechanism, which provides smooth, self-centring feedback.
 
 Powered by a 3.7 V LiPo battery, the controller was 3D-printed from PLA and designed for expandability and accessibility. While still in testing, it performs its core functions well and will continue to evolve with additional features. All components are off-the-shelf, making the design easy to reproduce or modify.  
  
