@@ -9,6 +9,7 @@ A fourth-year Mechanical Engineering student at the University of Victoria
 
 - [Tow Boogie](./tow-boogie/)
 - [Automated Conveyor Sorter](./conveyor-sorter/)
+- [Retractable Bridge](./bridge/)
 - [Boxing Animation](./boxing-animation/)
 
   
