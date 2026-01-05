@@ -18,7 +18,7 @@ The final prototype demonstrated reliable motor-driven retraction, maintained re
   allowfullscreen>  
 </iframe>  
 
-
+<br>
 Isometric CAD view of the final retractable bridge design.
 
 <img 
