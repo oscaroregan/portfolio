@@ -37,9 +37,3 @@ The final prototype demonstrated reliable motor-driven retraction, maintained re
 - Electric motor actuation and wiring  
 - Prototyping and experimental testing  
 - Team-based engineering design  
-
----
-
-## Project Files
-
-
