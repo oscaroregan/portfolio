@@ -10,6 +10,8 @@ The final prototype demonstrated reliable motor-driven retraction, maintained re
 
 ## Project Media
 
+<img width="1001" height="595" alt="Screen Shot 2026-01-05 at 10 37 23 AM" src="https://github.com/user-attachments/assets/8203d945-c0fb-4b08-8565-e66994c62b20" />
+
 <!-- VIDEO PLACEHOLDER -->
 <!-- Bridge full deployment and retraction -->
 
