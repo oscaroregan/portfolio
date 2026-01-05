@@ -123,19 +123,4 @@ This produced intuitive, human-like mode transitions without manual input.
 - Control systems analysis  
 - Data analysis and visualization  
 
----
-
-## Status & Future Work
-
-The project demonstrates that reinforcement learning can successfully generate mode-dependent hybrid vehicle controllers in simulation.
-
-Future improvements include:
-- RL-based automatic mode selection  
-- Inclusion of efficiency maps in rewards  
-- Expansion to additional control variables  
-
----
-
-## Project Files
-
 
