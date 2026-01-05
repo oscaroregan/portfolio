@@ -10,20 +10,17 @@ The final prototype demonstrated reliable motor-driven retraction, maintained re
 
 ## Project Media
 
-<img width="1001" height="595" alt="Screen Shot 2026-01-05 at 10 37 23 AM" src="https://github.com/user-attachments/assets/8203d945-c0fb-4b08-8565-e66994c62b20" />
+### Bridge Operation Video
+[Watch the bridge deploy and retract](https://youtu.be/TfgBfIqVVdk)
 
-<!-- VIDEO PLACEHOLDER -->
-<!-- Bridge full deployment and retraction -->
+### CAD Overview
+Isometric CAD view of the final retractable bridge design.
 
-<!-- VIDEO PLACEHOLDER -->
-<!-- Close-up of retraction mechanism -->
-
-<!-- IMAGE PLACEHOLDER -->
-<!-- Fully deployed bridge -->
-
-<!-- IMAGE PLACEHOLDER -->
-<!-- Fully retracted bridge -->
-
+<img 
+  src="https://github.com/user-attachments/assets/8203d945-c0fb-4b08-8565-e66994c62b20"
+  alt="Isometric CAD view of retractable bridge"
+  width="800"
+/>
 ---
 
 ## Skills & Tools Used
