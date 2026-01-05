@@ -36,4 +36,12 @@ The final prototype demonstrated reliable motor-driven retraction, maintained re
 - Design for manufacturability and assembly  
 - Electric motor actuation and wiring  
 - Prototyping and experimental testing  
-- Team-based engineering design  
+- Team-based engineering design
+
+## Design Process
+
+This project followed a complete engineering design cycle. Work began with a client-style problem definition and proposal, followed by background research on existing retractable bridge mechanisms. Multiple design concepts were generated and evaluated using weighted decision matrices before selecting a final concept.
+
+The selected design was developed through CAD modeling, prototyping, structural analysis, fabrication, and assembly. A full design report was produced documenting objectives, concept selection, analysis, testing procedures, and results. The final prototype was then physically tested and evaluated against the original design requirements, with lessons learned documented for future iterations.
+
+---
