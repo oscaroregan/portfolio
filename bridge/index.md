@@ -10,17 +10,17 @@ The final prototype demonstrated reliable motor-driven retraction, maintained re
 
 ## Project Media
 
-### Bridge Operation Video
-[Watch the bridge deploy and retract](https://youtu.be/TfgBfIqVVdk)
-
-### CAD Overview
-Isometric CAD view of the final retractable bridge design.
+Isometric CAD view
 
 <img 
   src="https://github.com/user-attachments/assets/8203d945-c0fb-4b08-8565-e66994c62b20"
   alt="Isometric CAD view of retractable bridge"
   width="800"
 />
+
+### Bridge Operation Video
+[Watch the bridge deploy and retract](https://youtu.be/TfgBfIqVVdk)
+
 ---
 
 ## Skills & Tools Used
