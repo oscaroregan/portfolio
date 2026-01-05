@@ -10,8 +10,7 @@ The result is a simulation-based hybrid controller capable of exhibiting distinc
 
 ## Project Overview
 
-<!-- IMAGE / VIDEO PLACEHOLDER -->
-<!-- Block diagram of HEV + RL control architecture -->
+<img width="576" height="335" alt="Screen Shot 2026-01-05 at 12 17 33 PM" src="https://github.com/user-attachments/assets/b0464148-3447-4668-8b73-388ee184408a" />
 
 **Objective:**  
 Demonstrate that reinforcement learning can learn meaningful, mode-dependent hybrid powertrain control strategies without hard-coded rules.
@@ -35,8 +34,7 @@ The project was implemented in **MATLAB** using a custom parallel hybrid vehicle
 
 The RL agent controls a single continuous action: the **engine–motor torque split**, while observing vehicle speed, acceleration demand, and battery state of charge (SOC).
 
-<!-- IMAGE PLACEHOLDER -->
-<!-- Powertrain schematic -->
+<img width="388" height="391" alt="Screen Shot 2026-01-05 at 12 19 33 PM" src="https://github.com/user-attachments/assets/569cd786-58ed-4eaf-b39d-e47e48c3c902" />
 
 ---
 
