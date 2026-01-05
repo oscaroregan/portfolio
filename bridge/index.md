@@ -10,8 +10,6 @@ The final prototype demonstrated reliable motor-driven retraction, maintained re
 
 ## Project Media
 
-## Project Media
-
 <iframe  
   width="720"  
   height="405"  
@@ -19,6 +17,7 @@ The final prototype demonstrated reliable motor-driven retraction, maintained re
   frameborder="0"  
   allowfullscreen>  
 </iframe>  
+
 
 Isometric CAD view of the final retractable bridge design.
 
