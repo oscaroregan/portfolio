@@ -88,13 +88,13 @@ Based on reward values, the learned policies improved on the best fixed baseline
 
 Generalization was evaluated across a Baseline, Urban, and Highway drive cycle. Across all cycles, consistent reward-driven behavior emerged: engine-dominant torque during acceleration and increased electric motor usage during steady cruising, resulting in gradual SOC decline.
 
+<img width="357" height="97" alt="Screen Shot 2026-01-05 at 4 32 15 PM" src="https://github.com/user-attachments/assets/a1c0c0c0-36d6-405f-be61-0986bb5ae184" />
+
+<img width="464" height="362" alt="Screen Shot 2026-01-05 at 4 32 07 PM" src="https://github.com/user-attachments/assets/55165459-7029-4c23-8fbd-6e4c1a3d9c93" />
+
 Mode separation was clearly reflected in reward-aligned trends. Eco minimized fuel-related reward penalties at the expense of deeper SOC usage, Sport accepted higher fuel penalties to preserve SOC during high-demand events, and Normal produced the most balanced fuel–SOC trade-off.
 
 Overall, these results show that PPO can learn distinct, mode-dependent control policies as defined by the reward structure and generalize beyond the training drive cycle.
-
-<img width="534" height="212" alt="Screen Shot 2026-01-05 at 4 29 29 PM" src="https://github.com/user-attachments/assets/386810a3-0afa-4517-8bd5-7c66bb0ed037" />
-
-<img width="451" height="342" alt="Screen Shot 2026-01-05 at 4 29 13 PM" src="https://github.com/user-attachments/assets/ee1d47bb-05cf-4bf2-a376-02a55214e193" />
 
 ## Supervisory Mode Controller
 
@@ -118,7 +118,9 @@ This produced intuitive, human-like mode transitions without manual input.
 - Hybrid powertrain simulation  
 - Reward function design  
 - Control systems analysis  
-- Data analysis and visualization  
+- Data analysis and visualization
+
+<img width="534" height="212" alt="Screen Shot 2026-01-05 at 4 29 29 PM" src="https://github.com/user-attachments/assets/386810a3-0afa-4517-8bd5-7c66bb0ed037" />
 
 <img width="415" height="124" alt="Screen Shot 2026-01-05 at 4 32 47 PM" src="https://github.com/user-attachments/assets/49d8872d-5ee6-40ab-bfea-4cd9c04fad87" />
 
