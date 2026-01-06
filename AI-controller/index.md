@@ -55,6 +55,9 @@ This approach produced stable, smooth control policies with reasonable training 
 
 ## Driving Modes
 
+<img width="451" height="342" alt="Screen Shot 2026-01-05 at 4 29 13 PM" src="https://github.com/user-attachments/assets/eacaae4e-4ee5-4dee-a2f1-e978f0cfbe96" />
+
+
 **Eco Mode**
 - Strong fuel consumption penalty  
 - SOC deadband for smoother control  
@@ -75,24 +78,23 @@ Distinct behaviors emerged purely from reward design.
 
 ## Performance Results
 
-The PPO agents were evaluated against optimized fixed torque-split baselines.
+PPO agents were evaluated using their **episode reward values** and compared against fixed torque-split baselines (constant split). These rewards reflect the defined cost function (fuel usage, SOC behavior, and feasibility penalties), not direct real-world vehicle performance.
 
-**Results:**
-- Eco and Normal modes outperformed their fixed baselines  
-- Sport mode achieved comparable high-performance behavior  
-- Controllers remained consistent across:
-  - Baseline
-  - Urban stop-and-go
-  - Highway drive cycles  
+Based on reward values, the learned policies improved on the best fixed baselines for two of the three modes:
 
-Learned policies showed intuitive trends such as engine-dominant acceleration and increased electric cruising.
+- Normal: -1914.99 (PPO) vs -2016.18 (best fixed baseline)  
+- Eco: -3295.63 (PPO) vs -3342.69 (best fixed baseline)  
+- Sport: -3230.79 (PPO), comparable to an engine-heavy baseline (split = 0.8) at -3189.2  
 
-<!-- IMAGE PLACEHOLDER -->
-<!-- Torque split plots -->
-<!-- Power distribution plots -->
-<!-- SOC plots -->
+Generalization was evaluated across a Baseline, Urban, and Highway drive cycle. Across all cycles, consistent reward-driven behavior emerged: engine-dominant torque during acceleration and increased electric motor usage during steady cruising, resulting in gradual SOC decline.
 
----
+Mode separation was clearly reflected in reward-aligned trends. Eco minimized fuel-related reward penalties at the expense of deeper SOC usage, Sport accepted higher fuel penalties to preserve SOC during high-demand events, and Normal produced the most balanced fuel–SOC trade-off.
+
+Overall, these results show that PPO can learn distinct, mode-dependent control policies as defined by the reward structure and generalize beyond the training drive cycle.
+
+<img width="534" height="212" alt="Screen Shot 2026-01-05 at 4 29 29 PM" src="https://github.com/user-attachments/assets/386810a3-0afa-4517-8bd5-7c66bb0ed037" />
+
+<img width="451" height="342" alt="Screen Shot 2026-01-05 at 4 29 13 PM" src="https://github.com/user-attachments/assets/ee1d47bb-05cf-4bf2-a376-02a55214e193" />
 
 ## Supervisory Mode Controller
 
@@ -107,9 +109,6 @@ Observed behavior included:
 
 This produced intuitive, human-like mode transitions without manual input.
 
-<!-- IMAGE PLACEHOLDER -->
-<!-- Mode selection vs time plot -->
-
 ---
 
 ## Skills & Tools Applied
@@ -120,5 +119,17 @@ This produced intuitive, human-like mode transitions without manual input.
 - Reward function design  
 - Control systems analysis  
 - Data analysis and visualization  
+
+<img width="415" height="124" alt="Screen Shot 2026-01-05 at 4 32 47 PM" src="https://github.com/user-attachments/assets/49d8872d-5ee6-40ab-bfea-4cd9c04fad87" />
+
+<img width="509" height="389" alt="Screen Shot 2026-01-05 at 4 32 40 PM" src="https://github.com/user-attachments/assets/7cd96fcd-f784-47c3-98da-3218dc93a6f5"/>
+
+<img width="425" height="125" alt="Screen Shot 2026-01-05 at 4 32 34 PM" src="https://github.com/user-attachments/assets/3b59ce1b-447e-48d9-b3c2-94395b17b89e" />
+
+<img width="478" height="367" alt="Screen Shot 2026-01-05 at 4 32 28 PM" src="https://github.com/user-attachments/assets/1bd655c4-ae53-4e36-8816-34ff6970c05e" />
+
+
+
+
 
 
