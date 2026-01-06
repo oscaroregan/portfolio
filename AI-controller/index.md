@@ -43,9 +43,12 @@ The RL agent controls a single continuous action: the **engine–motor torque sp
 Each driving mode is represented by a **separately trained PPO agent** sharing the same environment but using **mode-specific reward functions**.
 
 Training used a two-stage strategy:
-1. Rapid exploration with high learning rates   
+1. Rapid exploration with high learning rates
+   
 <img width="744" height="450" alt="Screen Shot 2026-01-05 at 4 15 59 PM" src="https://github.com/user-attachments/assets/f7ed8436-c7ce-452f-a6e7-eab0a94d12d8" />
+
 2. Policy refinement with reduced learning rates
+   
 <img width="714" height="400" alt="Screen Shot 2026-01-05 at 4 16 15 PM" src="https://github.com/user-attachments/assets/3fb59b6b-f5bc-4ec8-80d3-03529def6021" />
 
 This approach produced stable, smooth control policies with reasonable training time.
