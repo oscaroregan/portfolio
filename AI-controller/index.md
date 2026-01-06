@@ -55,19 +55,26 @@ This approach produced stable, smooth control policies with reasonable training 
 
 ## Driving Modes
 
-<img width="451" height="342" alt="Screen Shot 2026-01-05 at 4 29 13 PM" src="https://github.com/user-attachments/assets/eacaae4e-4ee5-4dee-a2f1-e978f0cfbe96" />
+The controller was trained and evaluated using a baseline drive cycle, then tested on additional urban and highway cycles to assess generalization.
 
+Baseline drive cycle used for training and evaluation.
 
-**Eco Mode**
+<img 
+  src="https://github.com/user-attachments/assets/eacaae4e-4ee5-4dee-a2f1-e978f0cfbe96"
+  alt="Baseline drive cycle velocity profile"
+  width="500"
+/>
+
+### Eco Mode
 - Strong fuel consumption penalty  
 - SOC deadband for smoother control  
 - Prioritizes efficiency  
 
-**Normal Mode**
+### Normal Mode
 - Balanced fuel and SOC penalties  
 - SOC regulated toward a target value  
 
-**Sport Mode**
+### Sport Mode
 - Reduced fuel penalty  
 - SOC floor instead of target  
 - Performance reward tied to acceleration  
@@ -78,7 +85,7 @@ Distinct behaviors emerged purely from reward design.
 
 ## Performance Results
 
-PPO agents were evaluated using their **episode reward values** and compared against fixed torque-split baselines (constant split). These rewards reflect the defined cost function (fuel usage, SOC behavior, and feasibility penalties), not direct real-world vehicle performance.
+PPO agents were evaluated using episode reward values and compared against fixed torque-split baselines (constant split). These rewards reflect the defined cost function (fuel usage, SOC behavior, and feasibility penalties), not direct real-world vehicle performance.
 
 Based on reward values, the learned policies improved on the best fixed baselines for two of the three modes:
 
@@ -88,13 +95,25 @@ Based on reward values, the learned policies improved on the best fixed baseline
 
 Generalization was evaluated across a Baseline, Urban, and Highway drive cycle. Across all cycles, consistent reward-driven behavior emerged: engine-dominant torque during acceleration and increased electric motor usage during steady cruising, resulting in gradual SOC decline.
 
-<img width="357" height="97" alt="Screen Shot 2026-01-05 at 4 32 15 PM" src="https://github.com/user-attachments/assets/a1c0c0c0-36d6-405f-be61-0986bb5ae184" />
+#### Baseline Drive Cycle Results
 
-<img width="464" height="362" alt="Screen Shot 2026-01-05 at 4 32 07 PM" src="https://github.com/user-attachments/assets/55165459-7029-4c23-8fbd-6e4c1a3d9c93" />
+Torque split behavior and power distribution for Eco, Normal, and Sport modes on the baseline drive cycle.
+
+<img 
+  src="https://github.com/user-attachments/assets/a1c0c0c0-36d6-405f-be61-0986bb5ae184"
+  alt="Torque split over time on baseline drive cycle"
+  width="600"
+/>
+
+<img 
+  src="https://github.com/user-attachments/assets/55165459-7029-4c23-8fbd-6e4c1a3d9c93"
+  alt="Engine and motor power distribution on baseline drive cycle"
+  width="600"
+/>
 
 Mode separation was clearly reflected in reward-aligned trends. Eco minimized fuel-related reward penalties at the expense of deeper SOC usage, Sport accepted higher fuel penalties to preserve SOC during high-demand events, and Normal produced the most balanced fuel–SOC trade-off.
 
-Overall, these results show that PPO can learn distinct, mode-dependent control policies as defined by the reward structure and generalize beyond the training drive cycle.
+---
 
 ## Supervisory Mode Controller
 
@@ -111,6 +130,50 @@ This produced intuitive, human-like mode transitions without manual input.
 
 ---
 
+## Generalization Across Drive Cycles
+
+Urban short and highway drive cycles used to test generalization beyond the training data.
+
+<img 
+  src="https://github.com/user-attachments/assets/386810a3-0afa-4517-8bd5-7c66bb0ed037"
+  alt="Urban and highway drive cycle velocity profiles"
+  width="600"
+/>
+
+### Highway Drive Cycle
+
+Power distribution and SOC behavior across driving modes on the highway cycle.
+
+<img 
+  src="https://github.com/user-attachments/assets/49d8872d-5ee6-40ab-bfea-4cd9c04fad87"
+  alt="Torque split on highway drive cycle"
+  width="600"
+/>
+
+<img 
+  src="https://github.com/user-attachments/assets/7cd96fcd-f784-47c3-98da-3218dc93a6f5"
+  alt="Power distribution on highway drive cycle"
+  width="600"
+/>
+
+### Urban Drive Cycle
+
+Mode-dependent behavior under frequent stop-and-go conditions.
+
+<img 
+  src="https://github.com/user-attachments/assets/3b59ce1b-447e-48d9-b3c2-94395b17b89e"
+  alt="Torque split on urban drive cycle"
+  width="600"
+/>
+
+<img 
+  src="https://github.com/user-attachments/assets/1bd655c4-ae53-4e36-8816-34ff6970c05e"
+  alt="Power distribution on urban drive cycle"
+  width="600"
+/>
+
+---
+
 ## Skills & Tools Applied
 
 - Reinforcement Learning (PPO)  
@@ -118,20 +181,4 @@ This produced intuitive, human-like mode transitions without manual input.
 - Hybrid powertrain simulation  
 - Reward function design  
 - Control systems analysis  
-- Data analysis and visualization
-
-<img width="534" height="212" alt="Screen Shot 2026-01-05 at 4 29 29 PM" src="https://github.com/user-attachments/assets/386810a3-0afa-4517-8bd5-7c66bb0ed037" />
-
-<img width="415" height="124" alt="Screen Shot 2026-01-05 at 4 32 47 PM" src="https://github.com/user-attachments/assets/49d8872d-5ee6-40ab-bfea-4cd9c04fad87" />
-
-<img width="509" height="389" alt="Screen Shot 2026-01-05 at 4 32 40 PM" src="https://github.com/user-attachments/assets/7cd96fcd-f784-47c3-98da-3218dc93a6f5"/>
-
-<img width="425" height="125" alt="Screen Shot 2026-01-05 at 4 32 34 PM" src="https://github.com/user-attachments/assets/3b59ce1b-447e-48d9-b3c2-94395b17b89e" />
-
-<img width="478" height="367" alt="Screen Shot 2026-01-05 at 4 32 28 PM" src="https://github.com/user-attachments/assets/1bd655c4-ae53-4e36-8816-34ff6970c05e" />
-
-
-
-
-
-
+- Data analysis and visualization  
