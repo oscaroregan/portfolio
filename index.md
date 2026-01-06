@@ -7,11 +7,11 @@ title: Oscar O'Regan Portfolio
 
 A fourth-year Mechanical Engineering student at the University of Victoria
 
-- [Tow Boogie](./tow-boogie/)
-- [Automated Conveyor Sorter](./conveyor-sorter/)
-- [AI Based Hybrid Vehicle Mode Controller](./AI-controller/)
-- [Retractable Bridge](./bridge/)
-- [Boxing Animation](./boxing-animation/)
+- [Tow Boogie (Summer 2025)](./tow-boogie/)
+- [Automated Conveyor Sorter (Spring 2025)](./conveyor-sorter/)
+- [AI Based Hybrid Vehicle Mode Controller (Fall 2025)](./AI-controller/)
+- [Retractable Bridge (Fall 2025)](./bridge/)
+- [Boxing Animation (Spring 2025)](./boxing-animation/)
 
   
 <!--## Resume
