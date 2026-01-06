@@ -25,7 +25,7 @@ Demonstrate that reinforcement learning can learn meaningful, mode-dependent hyb
 
 ## System Architecture
 
-The project was implemented in MATLAB using the Reinforcement Learning Toolbox and a custom parallel hybrid vehicle model. The full set of MATLAB scripts, models, and training files can be found in the `MATLAB/` directory.
+The project was implemented in MATLAB using the Reinforcement Learning Toolbox and a custom parallel hybrid vehicle model. The full set of MATLAB scripts, models, and training files can be found in the `MATLAB` directory.
 
 - **Engine:** GM EcoTec inline-4 (85 kW peak)  
 - **Electric Motor:** UQM PowerPhase PMSM (150 kW peak)  
