@@ -18,7 +18,7 @@ Building the Tow Boogie took a significant amount of time, effort, and cost to c
   allowfullscreen>  
 </iframe>  
 
-> *Note: This video shows initial testing — the system is not running at full power yet. Foil setup - 60L board with an Armstrong, HA 880 cm² front wing, and FV 200 cm² rear stabilizer.*  
+> *Foil setup - 60L board with an Armstrong, HA 880 cm² front wing, and FV 200 cm² rear stabilizer.*  
 
 ---
 
