@@ -7,6 +7,7 @@ title: Oscar O'Regan Portfolio
 
 A fourth-year Mechanical Engineering student at the University of Victoria
 
+- [Lignin-Based Direct Ink Writing Thesis (Spring 2026)](./thesis-diw/)
 - [Tow Boogie (Summer 2025)](./tow-boogie/)
 - [Automated Conveyor Sorter (Spring 2025)](./conveyor-sorter/)
 - [AI Based Hybrid Vehicle Mode Controller (Fall 2025)](./AI-controller/)
