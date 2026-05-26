@@ -4,7 +4,7 @@
 
 This project focused on developing a low-cost direct ink writing platform and using it to explore printable lignin-based formulations for sustainable materials applications.
 
-At the **2026 UVic CAMTEC Annual Symposium**, this work was presented as a poster and received a **CAMTEC Award**.
+At the **2026 UVic CAMTEC Annual Symposium**, this work was presented as a poster and received **second place overall among the posters presented**.
 
 Project files:
 - [View thesis report](./thesis.pdf)
@@ -25,4 +25,4 @@ Add photo of Oscar with poster here
 - Built and validated a low-cost open-source direct ink writing printer
 - Developed a workable lignin-based ink route for preliminary printing
 - Demonstrated printing, freeze-drying, and thermal stabilization of samples
-- Presented the work at CAMTEC and received a poster award
+- Presented the work at CAMTEC and received second place overall among the posters presented
