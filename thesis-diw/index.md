@@ -14,9 +14,11 @@ Project files:
 
 ## Poster Presentation
 
-<div style="width: 100%; max-width: 700px; height: 420px; border: 2px dashed #9aa5b1; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #5b6470; font-size: 22px; margin: 24px 0;">
-Add photo of Oscar with poster here
-</div>
+<img 
+  src="./oscar_with_poster.jpg"
+  alt="Oscar O'Regan standing with thesis poster at CAMTEC"
+  width="420"
+/>
 
 ---
 
